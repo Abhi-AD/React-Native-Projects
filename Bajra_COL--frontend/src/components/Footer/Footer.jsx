@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import logo from '../../assets/bajra_col--logo.png'
 function Footer() {
   return (
-    <footer id="bottom" data-anchor="true" className="bg-light o_footer">
+    <footer id="bottom" data-anchor="true" className="bg-light o_footer py-5">
       <div id="footer" className="oe_structure oe_structure_solo">
         <section className="company_footer" data-name="Company Footer">
           <div className="container">

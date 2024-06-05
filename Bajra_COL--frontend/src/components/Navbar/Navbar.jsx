@@ -3,7 +3,7 @@ import logo from '../../assets/bajra_col--logo.png'
 import { DarkMode } from "../import";
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: 'var(--main-color)'}}>
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top" style={{backgroundColor: 'var(--main-color)'}}>
       <div className="container">
         <Link className="navbar-brand" to={`/`}>
           <img src={logo} alt="Logo" width="60" height="54" className="d-inline-block align-text-top" />
@@ -32,7 +32,7 @@ const Navbar = () => {
               <Link className="nav-link" to={`/trainee`}>TRAINEESHIP</Link>
             </li>
             <li className="nav-item border border-light rounded">
-              <Link className="nav-link" to={`/`}>Contact Us</Link>
+              <Link className="nav-link" to={`/contactus`}>Contact Us</Link>
             </li>
             <DarkMode />
           </ul>

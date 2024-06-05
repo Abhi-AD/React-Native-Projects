@@ -1,4 +1,4 @@
-import { Header, Parnter, Termional } from "../../container/import"
+import { Header, Parnter, Termional, WhatDoSucess } from "../../container/import"
 
 const Home = () => {
   return (
@@ -6,6 +6,7 @@ const Home = () => {
       <Header />
       <Parnter />
       <Termional />
+      <WhatDoSucess />
     </div>
   )
 }
