@@ -1,0 +1,22 @@
+.toggle {
+     margin: 20px;
+   }
+   
+   .toggle label {
+     cursor: pointer;
+   }
+   
+   .toggle input[type="checkbox"] {
+     display: none;
+   }
+   
+   .toggle.light {
+     background-color: #ffffff;
+     color: #000000;
+   }
+   
+   .toggle.dark {
+     background-color: #333333;
+     color: #ffffff;
+   }
+   

@@ -1,0 +1,28 @@
+.parnter {
+  transition: transform 0.3s ease-in-out;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.parnter:hover {
+  transform: scale(1.2);
+}
+
+.silder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+@media (max-width: 568px) {
+  .parnter_img {
+    padding: 6;
+    width: 100px;
+  }
+
+  .silder {
+    flex-direction: column;
+    align-items: center;
+  }
+}

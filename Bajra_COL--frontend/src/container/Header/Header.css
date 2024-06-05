@@ -1,0 +1,29 @@
+.moon {
+     position: relative;
+     width: 250px;
+     height: 250px;
+     background: var(--secondary-color);
+     border-radius: 50%;
+     opacity: 0.2;
+}
+
+.btn-hover-dark:hover {
+     background-color: var(--main-color);
+     /* Change to your desired hover color */
+     color: var(--white)
+}
+
+@keyframes move-left-to-right {
+     0% {
+          transform: translateX(-10px);
+     }
+
+     100% {
+          transform: translateX(30px);
+     }
+}
+
+/* Apply the animation on hover */
+.btn:hover #arrow-icon {
+     animation: move-left-to-right 0.5s ease alternate infinite;
+}
