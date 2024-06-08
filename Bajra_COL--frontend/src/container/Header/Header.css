@@ -8,7 +8,7 @@
 }
 
 .btn-hover-dark:hover {
-     background-color: var(--main-color);
+     background-color: transparent;
      /* Change to your desired hover color */
      color: var(--white)
 }
