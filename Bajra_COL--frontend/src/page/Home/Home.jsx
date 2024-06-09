@@ -1,5 +1,4 @@
-import { Connect, Header, Parnter, Termional, WhatDoSucess } from "../../container/import"
-
+import { Connect, Count, Expertise, Header, Parnter, Termional, WhatDoSucess, WorkProcess } from "../../container/import"
 const Home = () => {
   return (
     <div>
@@ -7,6 +6,9 @@ const Home = () => {
       <Parnter />
       <Termional />
       <WhatDoSucess />
+      <WorkProcess />
+      <Expertise />
+      <Count />
       <Connect />
     </div>
   )

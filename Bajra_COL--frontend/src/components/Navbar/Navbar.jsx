@@ -2,8 +2,9 @@ import { Link } from "react-router-dom";
 import logo from '../../assets/bajra_col--logo.png'
 import { DarkMode } from "../import";
 const Navbar = () => {
+  // fixed-top
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top" style={{backgroundColor: 'var(--main-color)'}}>
+    <nav className="navbar navbar-expand-lg navbar-dark " style={{backgroundColor: 'var(--main-color)'}}>
       <div className="container">
         <Link className="navbar-brand" to={`/`}>
           <img src={logo} alt="Logo" width="60" height="54" className="d-inline-block align-text-top" />

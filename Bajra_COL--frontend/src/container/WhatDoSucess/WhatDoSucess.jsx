@@ -3,7 +3,7 @@ import './WhatDoSucess.css';
 
 const WhatDoSucess = () => {
      return (
-          <div style={{ backgroundColor: 'var(--secondary-color)' }}>
+          <div style={{ backgroundColor: '#EEEAE9' }}>
                <div className="p-5">
                     <div className="container text-center my-5 w-50">
                          <p className="fs-2" style={{ color: 'var(--main-color)' }}>We Ship Success Everyday</p>
