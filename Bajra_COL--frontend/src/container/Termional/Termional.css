@@ -1,5 +1,9 @@
 .termional {
      margin-top: 4rem;
+     background: url('https://bajratechnologies.com/web/image/34906/testimonials%20bg.png') no-repeat center center;
+     background-size: cover;
+     padding: 2rem;
+     border-radius: 10px;
 }
 
 .terminoal_icon {

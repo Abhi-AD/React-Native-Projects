@@ -1,10 +1,53 @@
-.moon {
-     position: relative;
-     width: 250px;
-     height: 250px;
-     background: var(--secondary-color);
-     border-radius: 50%;
-     opacity: 0.2;
+.header {
+     background: linear-gradient(180deg, #BE263B 0%, #64141F 53.32%, #370B11 103.73%, #000 165.43%);
+}
+
+.big_circle {
+     z-index: -1;
+     position: absolute;
+     left: -100px;
+     top: -121px;
+     animation: big-circle-move 10s infinite;
+     animation-delay: 5s;
+}
+
+
+
+@keyframes big-circle-move {
+     0% {
+          transform: translateX(0) translateY(0);
+     }
+
+     50% {
+          transform: translateX(-20px) translateY(-90px);
+     }
+
+     100% {
+          transform: translateX(0) translateY(0);
+     }
+}
+
+.small_circle {
+     position: absolute;
+     z-index: -1;
+     right: -15px;
+     bottom: 31px;
+     animation: small-circle-move 10s infinite;
+     animation-delay: 5s;
+}
+
+@keyframes small-circle-move {
+     0% {
+          transform: translateX(0) translateY(0);
+     }
+
+     50% {
+          transform: translateX(10px) translateY(40px);
+     }
+
+     100% {
+          transform: translateX(0) translateY(0);
+     }
 }
 
 .btn-hover-dark:hover {
