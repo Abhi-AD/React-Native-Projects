@@ -10,23 +10,23 @@ function Footer() {
               <div className="col-md-3 text-center text-md-left mb-3 mb-md-0 pb-3">
                 <section className="logo_wrapper">
                   <img src={logo} alt="Logo" width="90" height="70" className="d-inline-block align-text-top" />
-                  <div className="fs-5 fw-bold pt-1">
-                    <p className='fs-1 mb-0'>COL</p>
-                    <p className='mb-0'>Technology</p>
+                  <div className="fs-5 fw-bold pt-1 text-light">
+                    <p className='fs-1 mb-0 text-light'>COL</p>
+                    <p className='mb-0 text-light'>Technology</p>
                   </div>
                 </section>
               </div>
               <div className="col-md-6 text-center text-md-left mb-2 mb-md-0 d-flex border-start border-end border-light ">
                 <section className="w-50 ">
-                  <p className="text-sm mb-1">Bajra Technologies, LLC</p>
-                  <p className="text-sm mb-1">99 Wall St.</p>
-                  <p className="text-sm mb-1">Suite 700</p>
-                  <p className="text-sm mb-1">New York, NY 10005</p>
+                  <p className="text-sm mb-1 text-light">Bajra Technologies, LLC</p>
+                  <p className="text-sm mb-1 text-light">99 Wall St.</p>
+                  <p className="text-sm mb-1 text-light">Suite 700</p>
+                  <p className="text-sm mb-1 text-light">New York, NY 10005</p>
                 </section>
                 <section className="w-50">
-                  <p className="text-sm mb-1">Bajra Technologies Pvt. Ltd.</p>
-                  <p className="text-sm mb-1">Charkhal, Dillibazar</p>
-                  <p className="text-sm mb-1">Kathmandu, Nepal</p>
+                  <p className="text-sm mb-1 text-light">Bajra Technologies Pvt. Ltd.</p>
+                  <p className="text-sm mb-1 text-light">Charkhal, Dillibazar</p>
+                  <p className="text-sm mb-1 text-light">Kathmandu, Nepal</p>
                 </section>
               </div>
               <div className="col-md-3 text-center text-md-left mb-4 mb-md-0 d-flex">
@@ -57,16 +57,16 @@ function Footer() {
               <div className="col-md-6 text-center text-md-right">
                 <div className="social-section fs- d-flex justify-content-end">
                   <Link to={`/`} className=" text-white me-4">
-                    <i className="bi bi-facebook"></i>
+                    <i className="bi bi-facebook fs-3"></i>
                   </Link>
                   <Link to={`/`} className="text-white me-4">
-                    <i className="bi bi-linkedin"></i>
+                    <i className="bi bi-linkedin fs-3"></i>
                   </Link>
                   <Link to={`/`} className="text-white me-4">
-                    <i className="bi bi-twitter"></i>
+                    <i className="bi bi-twitter fs-3"></i>
                   </Link>
                   <Link to={`/`} className=" text-white me-4">
-                    <i className="bi bi-instagram"></i>
+                    <i className="bi bi-instagram fs-3"></i>
                   </Link>
                 </div>
               </div>

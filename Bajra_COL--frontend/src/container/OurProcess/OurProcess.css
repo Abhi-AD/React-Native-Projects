@@ -1,0 +1,105 @@
+.process {
+     padding: 5rem 0 7.928rem 0;
+     background: url(https://bajratechnologies.com/web/image/34902/how%20we%20work%20bg.png);
+}
+
+.fadeInUp_process {
+     animation: fadeInUp 1s;
+}
+
+@keyframes fadeInUp {
+     0% {
+          transform: translate(0, 100px);
+          opacity: 0;
+     }
+
+     100% {
+          transform: translate(0, 0);
+          opacity: 1;
+     }
+}
+
+/* bottom */
+
+.process-top-bottom_process {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     min-width: 400px;
+}
+
+.text-content-top_process {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: center;
+     width: 100%;
+}
+
+.fadeandshow {
+     animation: fadeandshow 1s linear forwards;
+}
+
+.process-sections {
+     opacity: 0;
+}
+
+@keyframes fadeandshow {
+     0% {
+          opacity: 0;
+     }
+
+     100% {
+          opacity: 1;
+     }
+}
+
+.text-content_process {
+     width: 221px;
+     text-align: center;
+}
+
+
+
+p {
+     font-size: 0.928rem;
+     font-weight: 400;
+     line-height: 1.714rem;
+     color: #090808D9;
+}
+
+.image-container-wrapper {
+     display: flex;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+}
+
+.image-content {
+     display: flex;
+     align-items: center;
+}
+
+.bottom-curve {
+     position: absolute;
+     top: 50%;
+     margin-left: 100%;
+}
+
+.text-content-bottom_process {
+     width: 221px;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     justify-self: center;
+     font-weight: 400;
+     line-height: normal;
+     color: #BE263B;
+     margin-bottom: 0;
+     margin-top: 1.214rem;
+     font-size: 1.285rem;
+     line-height: 1.857rem;
+}
