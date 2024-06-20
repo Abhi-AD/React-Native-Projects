@@ -1,19 +1,24 @@
+.parnter_img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.parnter_img:hover {
+  filter: grayscale(0%);
+}
+
 .parnter {
   transition: transform 0.3s ease-in-out;
   height: 100px;
   margin-bottom: 15px;
 }
 
-.parnter:hover {
-  transform: scale(1.2);
-}
 
 .silder {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
 
 @media (max-width: 568px) {
   .parnter_img {

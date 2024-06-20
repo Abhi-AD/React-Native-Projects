@@ -24,10 +24,10 @@ function Termional() {
                                    <div key={index} className=" p-4 rounded">
                                         <div className="d-flex align-items-center">
                                              <i className="bi bi-quote terminoal_icon"></i>
-                                             <p className="fw-normal fs-5 mb-0">{testimonial.quote}</p>
+                                             <p className="fw-normal fs-5 mb-0" style={{ color: "var(--secondary-color)" }}>{testimonial.quote}</p>
                                         </div>
-                                        <div className="text-center">
-                                             <p className="fs-4 fw-bold mb-0" style={{ color: "var(--main-color)" }}>{testimonial.author}</p>
+                                        <div className="text-center text-primar">
+                                             <p className="fs-4 fw-bold  mb-0" style={{ color: "var(--main-color)" }}>{testimonial.author}</p>
                                              <p className="fs-6 fw-light mb-0" style={{ color: "var(--secondary-color)" }}>{testimonial.title}</p>
                                         </div>
                                    </div>

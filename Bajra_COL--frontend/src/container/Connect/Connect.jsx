@@ -2,8 +2,8 @@ import { Link } from "react-router-dom"
 
 const Connect = () => {
      return (
-          <div className="p-5">
-               <div className="container text-center">
+          <div className="row">
+               <div className="text-center">
                     <p className="fs-2" style={{ color: 'var(--main-color)' }}>Let&apos;s Build Something Great Together.</p>
                     <p className="fs-6 font-weight-bold">Call us at: 🇳🇵+977-01-5912344</p>
                </div>

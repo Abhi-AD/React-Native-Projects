@@ -5,7 +5,7 @@ function Footer() {
     <footer id="bottom" data-anchor="true" className="o_footer py-5 text-light " style={{ backgroundColor: 'var(--main-color)' }}>
       <div id="footer" className="oe_structure oe_structure_solo container">
         <section className="company_footer" data-name="Company Footer">
-          <div className="container">
+          <div className="row">
             <section className="anim_footer top_footer fadeInUp row border-bottom">
               <div className="col-md-3 text-center text-md-left mb-3 mb-md-0 pb-3">
                 <section className="logo_wrapper">

@@ -5,10 +5,10 @@ const WhatDoSucess = () => {
      return (
           <div className="">
                <div className="p-5">
-                    <div className="container text-center my-5 w-50">
+                    <div className="container text-center my-5 w-50 row">
                          <p className="fs-2" style={{ color: 'var(--main-color)' }}>We Ship Success Everyday</p>
-                         <p className="fs-1">What Can We Do For You?</p>
-                         <p className="fs-5">
+                         <p className="fs-1 text-dark">What Can We Do For You?</p>
+                         <p className="fs-5" style={{ color: 'var(--secondary-color)' }}>
                               Bajra excels at delivering innovative technological solutions for all types of technology needs across various domains.
                               Regardless of the complexity of your ideas or solutions, we meticulously analyze every potential path and select the best
                               course of action to craft the optimal version of your dream project within required constraints. We don&apos;t hesitate to push
@@ -21,14 +21,14 @@ const WhatDoSucess = () => {
                          <div className="row justify-content-center row-cols-1 row-cols-md-2 row-cols-lg-5 g-4 mx-auto">
                               {services.map((service, index) => (
                                    <div className="col d-flex" key={index}>
-                                        <div className="card border-0 shadow card-hover h-100 w-100 d-flex flex-column">
-                                             <div className="default-content flex-grow-1 d-flex flex-column">
+                                        <div className=" border-0  card-hover h-100 w-100 d-flex flex-column">
+                                             <div className=" card shadow default-content flex-grow-1 d-flex flex-column">
                                                   <img src={service.image} alt={service.alt} width={50} className="mx-auto pt-3" />
                                                   <div className="card-body flex-grow-1 d-flex flex-column">
                                                        <p className="card-title fs-6">{service.title}</p>
                                                   </div>
                                              </div>
-                                             <div className="hover-content h-80 flex-grow-1 d-flex flex-column">
+                                             <div className="card shadow hover-content h-80 flex-grow-1 d-flex flex-column">
                                                   <div className="card-body flex-grow-1 d-flex flex-column">
                                                        <p className="card-title fs-6">{service.description}</p>
                                                        <Link to={`/what-we-do`} type="button" className="btn btn-outline-light btn-hover-dark border-0 mt-auto" data-mdb-ripple-init data-mdb-ripple-color="dark">

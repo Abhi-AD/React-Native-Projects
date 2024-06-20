@@ -1,26 +1,11 @@
-/* Global Styles */
-* {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-}
-
-body {
-     font-family: Arial, sans-serif;
-     color: #fff;
-}
-
-/* Section: Animated Hero Home */
 .s_anim_hero_home {
-     position: relative;
      background: linear-gradient(180deg, #BE263B 0%, #64141F 53.32%, #370B11 103.73%, #000 165.43%);
-     padding: 10rem 0;
      z-index: 2;
 }
 
 /* Container */
 .container {
-     max-width: 1140px;
+     /* max-width: 1140px; */
      margin: 0 auto;
      display: flex;
      justify-content: space-between;
@@ -28,17 +13,6 @@ body {
      padding: 0 1rem;
 }
 
-/* Row */
-.row {
-     display: flex;
-     gap: 10rem;
-}
-
-/* Hero Home Text and Image */
-.hero-home-text-image {
-     position: relative;
-     padding: 8.642rem 0;
-}
 
 /* Big Circle Animation */
 .big-circle {
@@ -65,8 +39,8 @@ body {
 .small-circle {
      position: absolute;
      z-index: -1;
-     right: -15px;
-     bottom: 31px;
+     left: 255px;
+     top: 200px;
      animation: small-circle-move 10s infinite 5s;
 }
 
@@ -161,25 +135,6 @@ body {
      transition: all 0.3s;
 }
 
-/* OR Check */
-.orCheck {
-     margin-left: 2.785rem;
-     font-size: 1.142rem;
-     line-height: 1.714rem;
-     color: #fff;
-}
-
-.orCheck_text a {
-     color: #fafcff !important;
-     text-decoration: none;
-}
-
-/* Image Content */
-.image-content {
-     position: relative;
-}
-
-/* Star Animation */
 .star {
      position: absolute;
      top: 20%;
