@@ -1,0 +1,5 @@
+/* custom.css */
+.accordion-button:hover {
+     color: var(--main-color);
+     font-weight: 400;
+}

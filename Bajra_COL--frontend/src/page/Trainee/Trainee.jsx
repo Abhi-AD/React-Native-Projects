@@ -1,4 +1,4 @@
-import { ProgramTrainner } from "../../container/import"
+import { FrequentlyQuestion, ProgramTrainner } from "../../container/import"
 
 const Trainee = () => {
   return (
@@ -38,7 +38,7 @@ const Trainee = () => {
       </section>
 
 
-
+      <FrequentlyQuestion />
 
 
 
