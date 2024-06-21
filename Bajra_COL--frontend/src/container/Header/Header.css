@@ -236,6 +236,5 @@
 .question {
      position: absolute;
      bottom: 21%;
-     right: -7%;
      animation: fadeInImg 2s;
 }

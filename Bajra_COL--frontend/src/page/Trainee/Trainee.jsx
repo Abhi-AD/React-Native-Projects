@@ -1,3 +1,4 @@
+import { ProgramTrainner } from "../../container/import"
 
 const Trainee = () => {
   return (
@@ -20,6 +21,30 @@ const Trainee = () => {
           </section>
         </div>
       </section>
+
+      <section className="d-flex justify-content-center align-items-center py-5">
+        <div className="container">
+          <div className="row justify-content-center align-items-center">
+            <div className="col-md-5 d-flex justify-content-center align-items-center">
+              <img src="https://bajratechnologies.com/web/image/41676/Image%281%29.png" alt="" className="img-fluid" />
+            </div>
+            <div className="col-md-6">
+              <p className="fs-3" style={{ color: 'var(--main-color)' }}>Discover Bajra Traineeship</p>
+              <p className="fs-1 lh-sm">Introduction</p>
+              <p className="fs-6 lh-lg">Bajras batch traineeship program is designed to bridge the gap between academia and industry, ensuring that participants are well-prepared for the challenges and opportunities of the tech sector. Our program covers a spectrum of hands-on experience in tech roles, from software development and data science to UI/UX and Project Management, while also prioritizing essential soft skills, like communication, teamwork, presentation, and problem-solving. Join us and embark on a transformative journey toward success in the ever-evolving tech landscape.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+      <ProgramTrainner />
+
+
     </div>
   )
 }
