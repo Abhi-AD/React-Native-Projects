@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom';
-// import './Header.css'
-import './Header1.css'
+import './Header.css'
 
 const Header = () => {
      return (
-          <section className="s_anim_hero_home position-relative z-index-2 p-5" data-name="Animated Hero Home">
+          <section className="header position-relative z-index-2 p-5" data-name="Animated Hero Home">
                <div className="container ">
                     <div className="row">
                          <div className="d-flex">

@@ -3,8 +3,40 @@
 :root {
      --font-family: "Poppins", sans-serif;
      --main-color: #be273a;
-     --main-light-color: #be273bda;
+     --main-light-color: linear-gradient(180deg, #BE263B 0%, #64141F 53.32%, #370B11 103.73%, #000 165.43%);
      --secondary-color: #808080;
      --white: #ffffff;
      --black: #000000;
+}
+
+.span {
+     color: var(--main-color);
+}
+
+.fadeRight {
+     animation: fadeRight 1s forwards;
+}
+
+@keyframes fadeRight {
+     0% {
+          transform: translateX(500px);
+     }
+
+     100% {
+          transform: translateX(0);
+     }
+}
+
+.fadeLeft {
+     animation: fadeLeft 1s forwards;
+}
+
+@keyframes fadeLeft {
+     0% {
+          transform: translateX(-500px);
+     }
+
+     100% {
+          transform: translateX(0);
+     }
 }

@@ -15,7 +15,7 @@ const Count = () => {
                     <div className="d-flex justify-content-center align-items-center">
                          <img src="https://bajratechnologies.com/web/image/34898/Property%201%3DVariant4%20%281%29%20%281%29.png" alt="" />
                     </div>
-                    <div className="rounded rounded-6 h-100 d-flex fs-4" style={{ backgroundColor: 'var(--main-light-color)' }}>
+                    <div className="rounded rounded-6 h-100 d-flex fs-4 header" >
                          {statistics.map((stat, index) => (
                               <div key={index} className="col-3 d-flex justify-content-center align-items-center">
                                    <div className="text-center">

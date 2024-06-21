@@ -1,72 +1,241 @@
 .header {
-     background: linear-gradient(180deg, #BE263B 0%, #64141F 53.32%, #370B11 103.73%, #000 165.43%);
+     background: var(--main-light-color);
+     z-index: 2;
 }
 
-.big_circle {
+/* Container */
+.container {
+     /* max-width: 1140px; */
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 1rem;
+}
+
+
+/* Big Circle Animation */
+.big-circle {
      z-index: -1;
      position: absolute;
      left: -100px;
      top: -121px;
-     animation: big-circle-move 10s infinite;
-     animation-delay: 5s;
+     animation: big-circle-move 10s infinite 5s;
 }
 
-
-
 @keyframes big-circle-move {
-     0% {
-          transform: translateX(0) translateY(0);
+
+     0%,
+     100% {
+          transform: translate(0, 0);
      }
 
      50% {
-          transform: translateX(-20px) translateY(-90px);
-     }
-
-     100% {
-          transform: translateX(0) translateY(0);
+          transform: translate(-20px, -90px);
      }
 }
 
-.small_circle {
+/* Small Circle Animation */
+.small-circle {
      position: absolute;
      z-index: -1;
-     right: -15px;
-     bottom: 31px;
-     animation: small-circle-move 10s infinite;
-     animation-delay: 5s;
+     left: 255px;
+     top: 200px;
+     animation: small-circle-move 10s infinite 5s;
 }
 
 @keyframes small-circle-move {
-     0% {
-          transform: translateX(0) translateY(0);
+
+     0%,
+     100% {
+          transform: translate(0, 0);
      }
 
      50% {
-          transform: translateX(10px) translateY(40px);
-     }
-
-     100% {
-          transform: translateX(0) translateY(0);
+          transform: translate(10px, 40px);
      }
 }
 
-.btn-hover-dark:hover {
-     background-color: transparent;
-     /* Change to your desired hover color */
-     color: var(--white)
+/* Text Content Animation */
+.text-content {
+     animation: fadeInUp 1s;
 }
 
-@keyframes move-left-to-right {
+@keyframes fadeInUp {
      0% {
-          transform: translateX(-10px);
+          transform: translate(0, 100px);
+          opacity: 0;
      }
 
      100% {
-          transform: translateX(30px);
+          transform: translate(0, 0);
+          opacity: 1;
      }
 }
 
-/* Apply the animation on hover */
-.btn:hover #arrow-icon {
-     animation: move-left-to-right 0.5s ease alternate infinite;
+.heading-title {
+     width: 45rem;
+     font-weight: 600;
+     font-size: 3.15rem;
+     line-height: 4.28rem;
+     color: #fff;
+}
+
+.atBajra {
+     font-size: 1.714rem;
+     line-height: 2.571rem;
+     margin: 1.714rem 0 2.857rem;
+}
+
+/* Button Content */
+.button-content {
+     display: flex;
+     align-items: center;
+     margin-top: 3rem;
+     z-index: 1;
+     animation: fadeInUp 1s;
+}
+
+.button {
+     display: flex;
+     background: transparent;
+     padding: 0.6rem;
+     position: relative;
+}
+
+.convolink {
+     display: flex;
+     padding: 1rem 1.714rem;
+     background: transparent;
+     border-radius: 0.571rem;
+     text-decoration: none;
+     color: white;
+     font-weight: 500;
+     font-size: 1.142rem;
+     border: 1px solid #fff;
+     transition: all 0.3s;
+}
+
+.convolink:hover .arrow {
+     opacity: 0;
+}
+
+.arrow {
+     margin-left: 1.142rem;
+     transition: all 0.3s 0.2s;
+     opacity: 1;
+}
+
+.arrow-hide {
+     position: absolute;
+     top: 28px;
+     right: 45px;
+     margin-left: 1.142rem;
+     opacity: 0;
+     transition: all 0.3s;
+}
+
+.star {
+     position: absolute;
+     top: 20%;
+     left: -6%;
+     animation: fadeInStar 2.5s;
+}
+
+@keyframes fadeInStar {
+
+     0%,
+     50% {
+          opacity: 0;
+     }
+
+     100% {
+          opacity: 1;
+     }
+}
+
+/* Code Animation */
+.code {
+     position: absolute;
+     top: 18%;
+     left: 35%;
+     animation: fadeInCode 2.3s;
+}
+
+@keyframes fadeInCode {
+
+     0%,
+     80% {
+          opacity: 0;
+     }
+
+     100% {
+          opacity: 1;
+     }
+}
+
+/* Hero Visual Animation */
+.hero-visual {
+     height: 36.92rem;
+     padding-top: 6rem;
+     animation: fadeInImg 1s;
+     width: 31.57rem;
+     /* -webkit-mask-image: url(https://bajratechnologies.com/bajra_snippets/static/src/img/pics/hero-visual.png); */
+     /* mask-image: url(https://bajratechnologies.com/bajra_snippets/static/src/img/pics/hero-visual.png); */
+     -webkit-mask-size: 104%;
+     mask-size: 104%;
+     -webkit-mask-repeat: no-repeat;
+     mask-repeat: no-repeat;
+     -webkit-mask-position: center;
+     mask-position: center;
+     -webkit-mask-origin: content-box;
+     mask-origin: content-box;
+}
+
+@keyframes fadeInImg {
+
+     0%,
+     70% {
+          opacity: 0;
+     }
+
+     100% {
+          opacity: 1;
+     }
+}
+
+/* Brackets Animation */
+.brackets {
+     position: absolute;
+     bottom: 32%;
+     left: -6%;
+     animation: fadeInStar 2.5s;
+}
+
+/* Colon Animation */
+.colon {
+     position: absolute;
+     bottom: 19%;
+     left: -10%;
+     animation: fadeInColon 2.5s;
+}
+
+@keyframes fadeInColon {
+
+     0%,
+     90% {
+          opacity: 0;
+     }
+
+     100% {
+          opacity: 1;
+     }
+}
+
+/* Question Animation */
+.question {
+     position: absolute;
+     bottom: 21%;
+     right: -7%;
+     animation: fadeInImg 2s;
 }

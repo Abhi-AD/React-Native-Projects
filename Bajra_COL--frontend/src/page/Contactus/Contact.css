@@ -1,0 +1,58 @@
+/* ContactBanner.css */
+
+.banner_wrapper_contact {
+     padding: 11rem 0;
+     display: block;
+}
+
+.text-center {
+     animation: fadeInUp 1s;
+}
+
+@keyframes fadeInUp {
+     0% {
+          transform: translate(0, 100px);
+     }
+
+     100% {
+          transform: translate(0, 0);
+     }
+}
+
+.right_first_circle_contact {
+     position: absolute;
+     top: 13%;
+     right: 26%;
+}
+
+.right_second_circle_contact {
+     position: absolute;
+     top: 0%;
+     right: 19%;
+}
+
+.right_third_circle_contact {
+     position: absolute;
+     top: -13%;
+     right: 10%;
+     height: 700px;
+     /* Adjust height as needed */
+}
+
+.circle-move {
+     animation: circle-move 8s infinite;
+}
+
+@keyframes circle-move {
+     0% {
+          transform: translateX(0) translateY(0);
+     }
+
+     40% {
+          transform: translateX(-20px) translateY(-40px);
+     }
+
+     100% {
+          transform: translateX(0) translateY(0);
+     }
+}
