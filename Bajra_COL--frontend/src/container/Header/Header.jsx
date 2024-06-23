@@ -9,17 +9,17 @@ const Header = () => {
                     <div className="col-md-5 order-1 order-md-1">
                         <div className="position-relative">
                             <img
-                                className="big-circle img-fluid position-absolute start-0 top-0 mw-100 mh-100"
+                                className="big-circle img-fluid position-absolute left-0 top-0 mw-100 mh-100"
                                 src="https://bajratechnologies.com/bajra_snippets/static/src/img/hero_big_circle.png"
                                 alt="Big Circle"
                             />
-                            <img
-                                className="small-circle img-fluid position-absolute start-10 top-80 mw-100 mh-100"
+                            < img
+                                className="small-circle img-fluid position-absolute left-10 top-80 mw-100 mh-100 "
                                 src="https://bajratechnologies.com/bajra_snippets/static/src/img/hero_small_circle.png"
                                 alt="Small Circle"
                             />
                             <div className="text-content fs-4 p">
-                                <h1 className="heading-title fs-2">
+                                <h1 className="heading-title fs-2 ">
                                     Years of industry experience in Building Technologies&nbsp;
                                     <span className="last-text">that bring Ideas to Life</span>.
                                 </h1>
@@ -28,7 +28,7 @@ const Header = () => {
                             <div className="button-content">
                                 <div className="row">
                                     <div className="col-lg-7">
-                                        <section className="d-flex align-items-center border border-light p-0 rounded text-white mb-3 mb-lg-0 overflow-hidden">
+                                        <section className="d-flex align-items-center border border-light border-2 p-0 rounded text-white mb-3 mb-lg-0 overflow-hidden">
                                             <Link className="d-inline-flex align-items-center text-decoration-none text-white py-3 px-4" to="/contactus" spellCheck="false">
                                                 Let’s start the conversation
                                                 <img
@@ -37,7 +37,11 @@ const Header = () => {
                                                     alt="Arrow"
                                                 />
                                             </Link>
+
+
                                         </section>
+
+
                                     </div>
                                     <div className="col-lg-5">
                                         <div className="ms-lg-3 fs-6 lh-lg text-white">
@@ -51,9 +55,11 @@ const Header = () => {
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
-                    <div className="col-md-3 order-1 order-md-1"></div>
+                    <div className="col-md-3 order-1 order-md-1">
+                    </div>
                     <div className="col-md-4 order-1 order-md-1">
                         <div className="position-relative">
                             <img
@@ -82,7 +88,7 @@ const Header = () => {
                                 alt="Colon"
                             />
                             <img
-                                className="question img-fluid fade-in"
+                                className="question img-fluid"
                                 src="https://bajratechnologies.com/bajra_snippets/static/src/img/Question.png"
                                 alt="Question"
                             />
@@ -90,7 +96,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 

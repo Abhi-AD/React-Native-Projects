@@ -10,3 +10,8 @@ export { default as Image } from './Count/Image'
 export { default as Course } from './Course/Course'
 export { default as ProgramTrainner } from './ProgramTrainner/ProgramTrainner'
 export { default as FrequentlyQuestion } from './FrequentlyQuestion/FrequentlyQuestion'
+export { default as TraineeCount } from './TraineeCount/TraineeCount'
+export { default as TraineeProgram } from './TraineeProgram/TraineeProgram'
+export { default as TraineeTestimonials } from './TraineeTestimonials/TraineeTestimonials'
+export { default as TraineeBefint } from './TraineeBefint/TraineeBefint'
+

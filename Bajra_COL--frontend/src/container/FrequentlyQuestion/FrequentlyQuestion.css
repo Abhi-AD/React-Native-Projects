@@ -1,5 +1,11 @@
 /* custom.css */
 .accordion-button:hover {
      color: var(--main-color);
-     font-weight: 400;
+     font-weight: 300;
+}
+
+.no-focus:focus {
+     outline: none;
+     box-shadow: none;
+     background: none;
 }

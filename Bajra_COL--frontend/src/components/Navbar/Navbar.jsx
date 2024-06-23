@@ -31,11 +31,11 @@ const Navbar = () => {
         <div className="collapse navbar-collapse text-uppercase" id="navbarNavDropdown">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             {navLinks.map((link, index) => (
-              <li key={index} className="nav-item">
+              <li key={index} className="nav-item me-1" >
                 <Link className={`nav-link ${isActive(link.path)}`} to={link.path}>{link.name}</Link>
               </li>
             ))}
-            <li className="nav-item border border-light rounded">
+            <li className="nav-item border border-light border-2 rounded me-1">
               <Link className={`nav-link ${isActive('/contactus')}`} to="/contactus">Contact Us</Link>
             </li>
             <DarkMode />

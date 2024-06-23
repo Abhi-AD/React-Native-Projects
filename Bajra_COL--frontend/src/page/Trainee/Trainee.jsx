@@ -1,4 +1,4 @@
-import { FrequentlyQuestion, ProgramTrainner } from "../../container/import"
+import { FrequentlyQuestion, ProgramTrainner, TraineeBefint, TraineeCount, TraineeProgram, TraineeTestimonials } from "../../container/import"
 
 const Trainee = () => {
   return (
@@ -36,7 +36,10 @@ const Trainee = () => {
           </div>
         </div>
       </section>
-
+      <TraineeCount />
+      <TraineeBefint />
+      <TraineeProgram />
+      <TraineeTestimonials />
 
       <FrequentlyQuestion />
 
