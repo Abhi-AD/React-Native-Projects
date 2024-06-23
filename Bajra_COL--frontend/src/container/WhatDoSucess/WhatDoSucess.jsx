@@ -4,8 +4,8 @@ import './WhatDoSucess.css';
 const WhatDoSucess = () => {
      return (
           <div className="">
-               <div className="p-5">
-                    <div className="container text-center my-5 w-50 row">
+               <div className="container">
+                    <div className=" text-center my-5 w-lg-50 row">
                          <p className="fs-2" style={{ color: 'var(--main-color)' }}>We Ship Success Everyday</p>
                          <p className="fs-1 text-dark">What Can We Do For You?</p>
                          <p className="fs-6" style={{ color: 'var(--secondary-color)' }}>
@@ -17,7 +17,7 @@ const WhatDoSucess = () => {
                               we provide for our beloved partners.
                          </p>
                     </div>
-                    <div className="container">
+                    <div className="">
                          <div className="row justify-content-center row-cols-1 row-cols-md-2 row-cols-lg-5 g-4 mx-auto">
                               {services.map((service, index) => (
                                    <div className="col d-flex" key={index}>
@@ -43,7 +43,7 @@ const WhatDoSucess = () => {
                               ))}
                          </div>
                     </div>
-                    <div className="text-center mt-5">
+                    <div className="text-center mb-5 mt-5">
                          <Link style={{ backgroundColor: 'var(--main-color)' }} type="button" className="text-light btn fs-4" to={`/what-we-do`}>
                               What We Do <i className="bi bi-arrow-right" data-aos="fade-left"></i>
                          </Link>

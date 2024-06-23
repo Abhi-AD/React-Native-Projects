@@ -22,10 +22,11 @@ function Termional() {
                          <Slider {...settings}>
                               {testimonials.map((testimonial, index) => (
                                    <div key={index} className=" p-4 rounded">
-                                        <div className="d-flex align-items-center">
+                                        <div className="d-flex align-items-start">
                                              <i className="bi bi-quote terminoal_icon"></i>
                                              <p className="fw-normal fs-6 mb-0" style={{ color: "var(--secondary-color)" }}>{testimonial.quote}</p>
                                         </div>
+
                                         <div className="text-center text-primar">
                                              <p className="fs-4 fw-bold  mb-0" style={{ color: "var(--main-color)" }}>{testimonial.author}</p>
                                              <p className="fs-6 fw-light mb-0" style={{ color: "var(--secondary-color)" }}>{testimonial.title}</p>

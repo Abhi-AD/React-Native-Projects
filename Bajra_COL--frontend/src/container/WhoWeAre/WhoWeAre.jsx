@@ -2,8 +2,8 @@
 const WhoWeAre = () => {
      return (
           <div style={{ background: 'url(https://bajratechnologies.com/web/image/34905/contour%20lines.png)' }}>
-               <div className="p-5">
-                    <div className="container text-center my-5 w-50 row">
+               <div className="container">
+                    <div className=" text-center my-5 w-lg--50 row">
                          <p className="fs-2" style={{ color: 'var(--main-color)' }}>Bajra in a Nutshell</p>
                          <p className="fs-1 text-dark">What Can We Do For You?</p>
                          <p className="fs-6" style={{ color: 'var(--secondary-color)' }}>
