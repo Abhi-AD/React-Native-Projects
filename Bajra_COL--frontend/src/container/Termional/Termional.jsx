@@ -16,7 +16,7 @@ function Termional() {
           pauseOnHover: false
      };
      return (
-          <div className="container-fluid py-5 ">
+          <div className="container">
                <div className="row justify-content-center termional">
                     <div className="col-10 col-md-8 col-lg-6 ">
                          <Slider {...settings}>
@@ -24,12 +24,12 @@ function Termional() {
                                    <div key={index} className=" p-4 rounded">
                                         <div className="d-flex align-items-start">
                                              <i className="bi bi-quote terminoal_icon"></i>
-                                             <p className="fw-normal fs-6 mb-0" style={{ color: "var(--secondary-color)" }}>{testimonial.quote}</p>
+                                             <p className="fw-normal fs-5 mb-0" style={{ color: "var(--secondary-color)" }}>{testimonial.quote}</p>
                                         </div>
 
                                         <div className="text-center text-primar">
-                                             <p className="fs-4 fw-bold  mb-0" style={{ color: "var(--main-color)" }}>{testimonial.author}</p>
-                                             <p className="fs-6 fw-light mb-0" style={{ color: "var(--secondary-color)" }}>{testimonial.title}</p>
+                                             <p className="fs-4 fw-bold  mb-0 mt-5" style={{ color: "var(--main-color)" }}>{testimonial.author}</p>
+                                             <p className="fs-6 fw-light mb-0 " style={{ color: "var(--secondary-color)" }}>{testimonial.title}</p>
                                         </div>
                                    </div>
                               ))}
