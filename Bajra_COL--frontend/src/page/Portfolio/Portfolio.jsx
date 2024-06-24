@@ -1,3 +1,4 @@
+import { Connect, OurWork } from "../../container/import"
 
 const Portfolio = () => {
   return (
@@ -15,13 +16,20 @@ const Portfolio = () => {
                 </p>
               </div>
             </div>
-            <img className="circle-move right_first_circle_contact" src="https://bajratechnologies.com/bajra_snippets/static/src/img/right_first_circle.png" alt="Circle" />
-            <img className="circle-move right_second_circle_contact" src="https://bajratechnologies.com/bajra_snippets/static/src/img/right_second_circle.png" alt="Circle" />
-            <img className="circle-move right_third_circle_contact" src="https://bajratechnologies.com/bajra_snippets/static/src/img/right_second_circle.png" alt="Circle" />
+            <div className="row">
+              <div className="col-md-6">
+                <img className="circle-move right_first_circle_contact" src="https://bajratechnologies.com/bajra_snippets/static/src/img/right_first_circle.png" alt="Circle" />
+                <img className="circle-move right_second_circle_contact" src="https://bajratechnologies.com/bajra_snippets/static/src/img/right_second_circle.png" alt="Circle" />
+                <img className="circle-move right_third_circle_contact" src="https://bajratechnologies.com/bajra_snippets/static/src/img/right_second_circle.png" alt="Circle" />
+              </div>
+            </div>
           </section>
         </div>
       </section>
-    </div>
+      <OurWork />
+
+      <Connect />
+    </div >
   )
 }
 

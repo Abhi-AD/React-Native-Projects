@@ -1,0 +1,7 @@
+.card-hover {
+     transition: transform 0.2s ease-in-out;
+}
+
+.card-hover:hover {
+     color: red !important;
+}
