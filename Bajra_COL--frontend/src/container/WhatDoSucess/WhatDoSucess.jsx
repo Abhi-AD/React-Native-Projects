@@ -21,25 +21,32 @@ const WhatDoSucess = () => {
                          <div className="row justify-content-center row-cols-1 row-cols-md-2 row-cols-lg-5 g-4 mx-auto">
                               {services.map((service, index) => (
                                    <div className="col d-flex" key={index}>
-                                        <div className=" border-0  card-hover h-100 w-100 d-flex flex-column">
-                                             <div className=" card shadow default-content flex-grow-1 d-flex flex-column">
+                                        <div className="card border-0 card-hover h-100 w-100 d-flex flex-column">
+                                             <div className="card shadow default-content flex-grow-1 d-flex flex-column">
                                                   <img src={service.image} alt={service.alt} width={50} className="mx-auto pt-3" />
                                                   <div className="card-body flex-grow-1 d-flex flex-column">
                                                        <p className="card-title fs-6">{service.title}</p>
                                                   </div>
                                              </div>
-                                             <div className="card shadow hover-content h-80 flex-grow-1 d-flex flex-column">
+                                             <div className="card shadow hover-content h-100 flex-grow-1 d-flex flex-column">
                                                   <div className="card-body flex-grow-1 d-flex flex-column">
                                                        <p className="card-title fs-6">{service.description}</p>
-                                                       <Link to={`/what-we-do`} type="button" className="btn btn-outline-light btn-hover-dark border-0 mt-auto" data-mdb-ripple-init data-mdb-ripple-color="dark">
-                                                            Learn More
-                                                            <i className="bi bi-arrow-right" data-aos="fade-left"></i>
+                                                       <Link
+                                                            to={`/what-we-do`}
+                                                            type="button"
+                                                            className="btn-outline-light btn-hover-dark border-0 mt-auto text-light"
+                                                            data-mdb-ripple-init
+                                                            data-mdb-ripple-color="dark"
+                                                            style={{ textDecoration: 'none' }}
+                                                       >
+                                                            Learn More <i className="bi bi-arrow-right" data-aos="fade-left"></i>
                                                        </Link>
+
                                                   </div>
                                              </div>
                                         </div>
-
                                    </div>
+
                               ))}
                          </div>
                     </div>

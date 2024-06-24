@@ -1,7 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/bajra_col--logo.png";
 import { DarkMode } from "../import";
-import "./Navbar.css";
 
 const navLinks = [
   { path: "/", name: "Home" },

@@ -9,6 +9,14 @@
      --black: #000000;
 }
 
+.bg-main {
+     background-color: var(--main-color);
+}
+
+.text-main {
+     color: var(--main-color);
+}
+
 .span {
      color: var(--main-color);
 }
@@ -46,4 +54,3 @@
      background: var(--main-light-color);
      z-index: 2;
 }
-

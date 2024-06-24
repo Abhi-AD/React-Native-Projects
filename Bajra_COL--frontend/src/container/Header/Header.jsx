@@ -29,10 +29,10 @@ const Header = () => {
                                 <div className="row mt-2">
                                     <div className="col-lg-7">
                                         <section className="d-flex align-items-center border border-light border-2 p-0 rounded text-white mb-3 mb-lg-0 overflow-hidden">
-                                            <Link className="d-inline-flex align-items-center text-decoration-none text-white py-3 px-4" to={"/contactus"}>
+                                            <Link className="move d-inline-flex align-items-center text-decoration-none text-white py-3 px-4" to={"/contactus"}>
                                                 Let’s start the conversation
                                                 <img
-                                                    className="ms-4"
+                                                    className="ms-4 arrow"
                                                     src="https://bajratechnologies.com/bajra_snippets/static/src/img/icon/arrow.svg"
                                                     alt="Arrow"
                                                 />

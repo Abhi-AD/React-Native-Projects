@@ -13,3 +13,8 @@
      height: 90px;
      object-fit: cover;
 }
+
+.move:hover .arrow {
+     opacity: 1;
+     transform: translate(20px);
+}

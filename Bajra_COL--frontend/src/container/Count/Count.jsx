@@ -35,7 +35,7 @@ const Count = () => {
                          {counts.map((stat, index) => (
                               <div key={index} className="col-sm-6 col-md-6 col-lg-3 mb-4">
                                    <div className="d-flex flex-column align-items-center" style={{ marginTop: '-2rem' }}>
-                                        <div className="custom-border rounded-circle d-flex justify-content-center align-items-center mb-2">
+                                        <div className="custom-border border-0 rounded-circle d-flex justify-content-center align-items-center mb-2">
                                              <i className={`${stat.icon} fs-1 text-light`}></i>
                                         </div>
                                         <div className="text-light">

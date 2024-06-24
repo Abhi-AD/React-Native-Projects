@@ -13,3 +13,18 @@
      top: 0;
      margin-bottom: 0;
 }
+
+.jobs-convolink {
+     display: flex;
+     padding: 1rem 1.714rem;
+     background: transparent;
+     border-radius: 0.571rem;
+     text-decoration: none;
+     color: var(--main-text-color);
+     font-weight: 500;
+     font-size: 1rem;
+     border: 1px solid var(--main-text-color);
+     transition: all 0.3s;
+     background: var(--main-color);
+}
+
