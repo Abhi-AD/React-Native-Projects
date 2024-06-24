@@ -56,3 +56,9 @@
           transform: translateX(0) translateY(0);
      }
 }
+
+.contact-border {
+     height: 30px;
+     width: 30px;
+     background: var(--main-color);
+}
