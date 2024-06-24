@@ -1,14 +1,8 @@
-:root {
-     --main-light-color: #f0f0f0;
-     --main-text-color: #ffffff;
-     --main-bg-color: #000000;
-}
-
 /* Header */
 .header {
      background: var(--main-light-color);
      z-index: 2;
-     padding: 2rem 0;
+     height: 700px;
 }
 
 /* Container */

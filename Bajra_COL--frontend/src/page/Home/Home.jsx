@@ -1,4 +1,4 @@
-import { Connect, Count, Header, Image, OurProcess, Parnter, Termional, WhatDoSucess, WhoWeAre } from "../../container/import"
+import { Connect, Count, Header, Image, OurExpertise, OurProcess, Parnter, Termional, WhatDoSucess, WhoWeAre } from "../../container/import"
 
 const Home = () => {
   return (
@@ -7,11 +7,13 @@ const Home = () => {
       <Parnter />
       <Termional />
       <WhatDoSucess />
+      <OurExpertise />
       <OurProcess />
       <WhoWeAre />
       <Image />
       <Count />
       <Connect />
+
     </div>
   )
 }

@@ -3,64 +3,57 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <section className="header position-relative" data-name="Animated Hero Home">
-            <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-md-5 order-1 order-md-1">
-                        <div className="position-relative">
+        <section className="header position-relative custom-height" data-name="Animated Hero Home">
+            <div className="container  h-100">
+                <div className="row p-5 align-items-center h-50">
+                    <div className="col-md-6 order-1 order-md-1 me-4">
+                        <div className="position-relative h-100">
                             <img
-                                className="big-circle img-fluid position-absolute left-0 top-0 mw-100 mh-100"
+                                className="big-circle img-fluid position-absolute left-0 top-0 mw-90 mh-90"
                                 src="https://bajratechnologies.com/bajra_snippets/static/src/img/hero_big_circle.png"
                                 alt="Big Circle"
                             />
-                            < img
-                                className="small-circle img-fluid position-absolute left-10 top-80 mw-100 mh-100 "
+                            <img
+                                className="small-circle img-fluid position-absolute l   eft-0 top-0 mw-90 mh-90"
                                 src="https://bajratechnologies.com/bajra_snippets/static/src/img/hero_small_circle.png"
                                 alt="Small Circle"
                             />
-                            <div className="text-content fs-4 p">
-                                <h1 className="heading-title fs-2 ">
+                            <div className="text-content fs-1">
+                                <h1 className="heading-title fs-1 lh-sm text-light">
                                     Years of industry experience in Building Technologies&nbsp;
                                     <span className="last-text">that bring Ideas to Life</span>.
                                 </h1>
                                 <p className="fs-4 lh-1 text-light">At Bajra Technologies, We Make Your Ideas Work.</p>
                             </div>
-                            <div className="button-content">
-                                <div className="row">
+                            <div className="button-content mt-5">
+                                <div className="row mt-2">
                                     <div className="col-lg-7">
                                         <section className="d-flex align-items-center border border-light border-2 p-0 rounded text-white mb-3 mb-lg-0 overflow-hidden">
-                                            <Link className="d-inline-flex align-items-center text-decoration-none text-white py-3 px-4" to="/contactus" spellCheck="false">
+                                            <Link className="d-inline-flex align-items-center text-decoration-none text-white py-3 px-4" to={"/contactus"}>
                                                 Let’s start the conversation
                                                 <img
-                                                    className="ms-1"
+                                                    className="ms-4"
                                                     src="https://bajratechnologies.com/bajra_snippets/static/src/img/icon/arrow.svg"
                                                     alt="Arrow"
                                                 />
                                             </Link>
-
-
                                         </section>
-
-
                                     </div>
                                     <div className="col-lg-5">
                                         <div className="ms-lg-3 fs-6 lh-lg text-white">
                                             OR,
                                             <br />
-                                            <Link to="/portfolio" className="text-light text-decoration-none">
+                                            <a href="/portfolio" className="text-light text-decoration-none">
                                                 <span>Check out what we’ve done</span>
-                                            </Link>
+                                            </a>
                                             ...
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-                    <div className="col-md-3 order-1 order-md-1">
-                    </div>
-                    <div className="col-md-4 order-1 order-md-1">
+                    <div className="col-md-5 order-1 order-md-1">
                         <div className="position-relative">
                             <img
                                 className="star img-fluid"
@@ -96,7 +89,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-        </section >
+        </section>
     );
 };
 

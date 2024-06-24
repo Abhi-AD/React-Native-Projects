@@ -40,3 +40,10 @@
           transform: translateX(0);
      }
 }
+
+
+.footer {
+     background: var(--main-light-color);
+     z-index: 2;
+}
+

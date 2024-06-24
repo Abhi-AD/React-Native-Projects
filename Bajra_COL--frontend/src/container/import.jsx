@@ -14,4 +14,4 @@ export { default as TraineeCount } from './TraineeCount/TraineeCount'
 export { default as TraineeProgram } from './TraineeProgram/TraineeProgram'
 export { default as TraineeTestimonials } from './TraineeTestimonials/TraineeTestimonials'
 export { default as TraineeBefint } from './TraineeBefint/TraineeBefint'
-
+export { default as OurExpertise } from './OurExpertise/OurExpertise'
