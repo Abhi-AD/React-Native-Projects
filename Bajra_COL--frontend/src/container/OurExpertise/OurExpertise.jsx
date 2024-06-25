@@ -20,7 +20,7 @@ const OurExpertise = () => {
                     {tabs.map((tab) => (
                          <button
                               key={tab.name}
-                              className={`nav-link fs-5 fw-normal me-2 ${activeTab === tab.name ? 'active rounded-4 text-light bg-danger ' : 'text-dark border border-dark rounded-4'}`} // Adjusted className for inactive tabs
+                              className={`nav-link fs-5 fw-normal me-2 ${activeTab === tab.name ? 'active rounded-4 text-light bg-primary ' : 'text-dark border border-dark rounded-4'}`} // Adjusted className for inactive tabs
                               onClick={() => setActiveTab(tab.name)}
                          >
                               {tab.name}

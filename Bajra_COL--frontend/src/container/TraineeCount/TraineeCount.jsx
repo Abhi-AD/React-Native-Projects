@@ -36,10 +36,10 @@ const TraineeCount = () => {
                               <div key={index} className="col-sm-6 col-md-6 col-lg-3 mb-4">
                                    <div className="d-flex flex-column align-items-center" style={{ marginTop: '-2rem' }}>
                                         <div className="trainee-custom-border rounded-circle d-flex justify-content-center align-items-center mb-2">
-                                             <i className={`${stat.icon} fs-1`} style={{ color: 'var(--main-color)' }}></i>
+                                             <i className={`${stat.icon} fs-1 text-main`}></i>
                                         </div>
                                         <div className="text-light">
-                                             <p className="counting mb-0 fs-4 fw-semibold " style={{ color: 'var(--main-color)' }}>
+                                             <p className="counting mb-0 fs-4 fw-semibold text-main ">
                                                   {stat.currentCount > stat.threshold ? `${stat.currentCount}+` : stat.currentCount}
                                              </p>
                                              <p className="text-uppercase mt-3 fs-6">{stat.label}</p>

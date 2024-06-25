@@ -13,7 +13,7 @@ const ProgramTrainner = () => {
                               <p className="mb-0">Phone: +977-01-5912344</p>
                          </div>
                          <div className="text-center pb-2 pt-4">
-                              <Link type="button" className="text-light btn fs-5" to={"/drop-cv"} style={{ background: 'var(--main-color)' }}>
+                              <Link type="button" className="text-light btn fs-5 bg-main" to={"/drop-cv"}>
                                    Submit Your CV<i className="bi bi-arrow-right" data-aos="fade-left"></i>
                               </Link>
                          </div>

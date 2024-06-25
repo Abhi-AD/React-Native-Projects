@@ -6,9 +6,9 @@ const WhatDoSucess = () => {
           <div className="">
                <div className="container">
                     <div className=" text-center my-5 w-lg-50 row">
-                         <p className="fs-2 mb-4" style={{ color: 'var(--main-color)' }}>We Ship Success Everyday</p>
+                         <p className="fs-2 mb-4 text-main ">We Ship Success Everyday</p>
                          <p className="fs-1 mt-2 text-dark">What Can We Do For You?</p>
-                         <p className="fs-6 w-75   mx-auto" style={{ color: 'var(--secondary-color)' }}>
+                         <p className="fs-6 w-75   mx-auto text-secondary">
                               Bajra excels at delivering innovative technological solutions for all types of technology needs across various domains.
                               Regardless of the complexity of your ideas or solutions, we meticulously analyze every potential path and select the best
                               course of action to craft the optimal version of your dream project within required constraints. We don&apos;t hesitate to push
@@ -51,7 +51,7 @@ const WhatDoSucess = () => {
                          </div>
                     </div>
                     <div className="text-center mb-5 mt-5">
-                         <Link style={{ backgroundColor: 'var(--main-color)' }} type="button" className="text-light btn fs-4" to={`/what-we-do`}>
+                         <Link type="button" className="text-light btn fs-4 bg-main " to={`/what-we-do`}>
                               What We Do <i className="bi bi-arrow-right" data-aos="fade-left"></i>
                          </Link>
                     </div>

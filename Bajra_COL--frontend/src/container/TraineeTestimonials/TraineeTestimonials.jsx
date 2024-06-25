@@ -50,7 +50,7 @@ const TestimonialCard = ({ testimonial }) => (
                          <p className="card-text centered-text">
                               <em>{testimonial.text}</em>
                          </p>
-                         <Link to={`/trainee`} className="btn text-light" style={{ background: 'var(--main-color)' }}>View More</Link>
+                         <Link to={`/trainee`} className="btn text-light bg-main ">View More</Link>
                     </div>
                </div>
           </div>

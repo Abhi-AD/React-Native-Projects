@@ -11,7 +11,7 @@ const TraineeProgram = () => {
                               <div className="card-body">
                                    <h5 className="card-title">J-24-01</h5>
                                    <p className="card-text">15 Jan - 15 Apr 2024</p>
-                                   <a href="#" className="btn text-light" style={{ background: 'var(--main-color)' }}>Read more</a>
+                                   <a href="#" className="btn text-light bg-main ">Read more</a>
                               </div>
                          </div>
                     </div>
@@ -21,7 +21,7 @@ const TraineeProgram = () => {
                               <div className="card-body">
                                    <h5 className="card-title">J-23-06</h5>
                                    <p className="card-text">19 Jun - 15 Sep 2023</p>
-                                   <a href="#" className="btn text-light" style={{ background: 'var(--main-color)' }}>Read more</a>
+                                   <a href="#" className="btn text-light bg-main ">Read more</a>
                               </div>
                          </div>
                     </div>
@@ -31,13 +31,13 @@ const TraineeProgram = () => {
                               <div className="card-body">
                                    <h5 className="card-title">J-23-01</h5>
                                    <p className="card-text">30 Jan - 01 May 2023</p>
-                                   <a href="#" className="btn text-light" style={{ background: 'var(--main-color)' }}>Read more</a>
+                                   <a href="#" className="btn text-light bg-main ">Read more</a>
                               </div>
                          </div>
                     </div>
                </div>
                <div className="text-center mb-5">
-                    <Link style={{ backgroundColor: 'var(--main-color)' }} type="button" className="text-light btn fs-5" to={`/what-we-do`}>
+                    <Link type="button" className="text-light btn fs-5 bg-main " to={`/what-we-do`}>
                          View All <i className="bi bi-arrow-right fs-4" data-aos="fade-left"></i>
                     </Link>
                </div>

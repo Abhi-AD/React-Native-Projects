@@ -2,8 +2,8 @@
 
 :root {
      --font-family: "Poppins", sans-serif;
-     --main-color: #be273a;
-     --main-light-color: linear-gradient(180deg, #BE263B 0%, #64141F 53.32%, #370B11 103.73%, #000 165.43%);
+     --main-color: #007FFF;
+     --main-light-color: linear-gradient(180deg, #0000FF 0%, #0000A0 53.32%, #000070 103.73%, #000033 165.43%);
      --secondary-color: #808080;
      --white: #ffffff;
      --black: #000000;
@@ -15,6 +15,10 @@
 
 .text-main {
      color: var(--main-color);
+}
+
+.text-main-light {
+     color: var(--main-light-color);
 }
 
 .span {

@@ -58,38 +58,54 @@ const About = () => {
       </section>
 
 
-      <section className="container d-flex justify-content-center align-items-center">
+      <section className="container mb-5 mt-5 d-flex justify-content-center align-items-center">
         <div className="row justify-content-center">
           <div className="col-md-3">
-            <img
-              src="https://bajratechnologies.com/web/image/37212/Mask%20group.png"
-              alt=""
-              className="img-fluid h-100 rounded"
-            />
+            <div className="card">
+              <img
+                src="https://bajratechnologies.com/web/image/37212/Mask%20group.png"
+                alt=""
+                className="img-fluid rounded w-100"
+                style={{ height: '400px' }}
+              />
+            </div>
           </div>
           <div className="col-md-3">
-            <img
-              src="https://bajratechnologies.com/web/image/37213/1_BmN3ALM7ftjFa6qCSkaKZA%201.png"
-              alt=""
-              className="img-fluid h-100 rounded"
-            />
+            <div className="card">
+              <img
+                src="https://bajratechnologies.com/web/image/37213/1_BmN3ALM7ftjFa6qCSkaKZA%201.png"
+                alt=""
+                className="img-fluid rounded w-100"
+                style={{ height: '400px' }}
+
+              />
+            </div>
           </div>
           <div className="col-md-3">
-            <img
-              src="https://bajratechnologies.com/web/image/38436/111.jpg"
-              alt=""
-              className="img-fluid h-100 rounded"
-            />
+            <div className="card">
+              <img
+                src="https://bajratechnologies.com/web/image/38436/111.jpg"
+                alt=""
+                className="img-fluid rounded w-100"
+                style={{ height: '400px' }}
+
+              />
+            </div>
           </div>
           <div className="col-md-3">
-            <img
-              src="https://bajratechnologies.com/web/image/37215/Mask%20group%20%281%29.png"
-              alt=""
-              className="img-fluid h-100 rounded"
-            />
+            <div className="card">
+              <img
+                src="https://bajratechnologies.com/web/image/37215/Mask%20group%20%281%29.png"
+                alt=""
+                className="img-fluid rounded w-100"
+                style={{ height: '400px' }}
+
+              />
+            </div>
           </div>
         </div>
       </section>
+
 
 
       <section style={{ background: 'url(https://bajratechnologies.com/web/image/37252/culture.jpg)' }}>

@@ -113,7 +113,7 @@ const OurWork = () => {
                     {tabs.map((tab) => (
                          <button
                               key={tab.name}
-                              className={`nav-link fs-5 fw-normal me-2 ${activeTab === tab.name ? 'active border-0 text-light bg-danger' : 'text-dark border border-dark border-0'}`}
+                              className={`nav-link fs-5 fw-normal me-2 ${activeTab === tab.name ? 'active border-0 text-light bg-primary' : 'text-dark border border-dark border-0'}`}
                               onClick={() => setActiveTab(tab.name)}
                          >
                               {tab.name}

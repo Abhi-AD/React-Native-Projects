@@ -36,7 +36,7 @@ const TraineeBenefit = () => {
      return (
           <div className="container mb-5">
                <div className="container text-center">
-                    <p className=" w-75 mx-auto fs-4 fw-semibold" style={{ color: 'var(--main-color)' }}>
+                    <p className=" w-75 mx-auto fs-4 fw-semibold text-main">
                          Trainee Benefits
                     </p>
                     <p className=" w-75 lh-sm mx-auto fs-1 mt-4 mb-4">
