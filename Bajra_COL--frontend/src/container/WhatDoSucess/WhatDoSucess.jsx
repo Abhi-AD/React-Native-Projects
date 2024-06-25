@@ -6,15 +6,10 @@ const WhatDoSucess = () => {
           <div className="">
                <div className="container">
                     <div className=" text-center my-5 w-lg-50 row">
-                         <p className="fs-2 mb-4 text-main ">We Ship Success Everyday</p>
-                         <p className="fs-1 mt-2 text-dark">What Can We Do For You?</p>
-                         <p className="fs-6 w-75   mx-auto text-secondary">
-                              Bajra excels at delivering innovative technological solutions for all types of technology needs across various domains.
-                              Regardless of the complexity of your ideas or solutions, we meticulously analyze every potential path and select the best
-                              course of action to craft the optimal version of your dream project within required constraints. We don&apos;t hesitate to push
-                              the limits using the latest technologies or explore the bleeding edge and we are also very good at keeping things stable
-                              and working within specified processes or existing technology stacks. Here are some of the major categories of services
-                              we provide for our beloved partners.
+                         <p className="fs-2 mb-4 text-main ">Daily Deliveries of Success</p>
+                         <p className="fs-1 mt-2 text-dark">What Do You Require?</p>
+                         <p className="fs-6 w-75  mx-auto text-secondary">
+                              COL Technology excels in delivering cutting-edge technological solutions across diverse domains. Whether your concepts are straightforward or highly complex, we meticulously analyze every potential avenue to determine the optimal course of action, ensuring the realization of your project within specified constraints. We thrive on pushing boundaries with the latest technologies and exploring the forefront of innovation, while also maintaining stability and efficiency within existing technology stacks and processes. Explore our comprehensive range of services tailored for our valued partners.
                          </p>
                     </div>
                     <div className="">
@@ -63,15 +58,15 @@ const WhatDoSucess = () => {
 const services = [
      {
           image: "https://bajratechnologies.com/bajra_snippets/static/src/img/architecture.png",
-          alt: "Technical Architecture and Platform Design",
-          title: "Technical Architecture and Platform Design",
-          description: "Our first priority for delivering solutions with flawless execution is to create a solid.."
+          alt: "Innovative Technical Solutions",
+          title: "Innovative Technical Solutions",
+          description: "We excel in crafting innovative technical solutions to ensure flawless execution..."
      },
      {
           image: "https://bajratechnologies.com/bajra_snippets/static/src/img/user-experience-design.png",
-          alt: "User Experience/ Interaction Principles and Design",
-          title: "User Experience/ Interaction Principles and Design",
-          description: "Every business-be it Bajra or any of our clients- builds software and programs to.."
+          alt: "Interactive User Experience Strategies",
+          title: "Interactive User Experience Strategies",
+          description: "We implement interactive user experience strategies at COL Technology and for our clients..."
      },
      {
           image: "https://bajratechnologies.com/bajra_snippets/static/src/img/agile.png",
@@ -81,27 +76,27 @@ const services = [
      },
      {
           image: "https://bajratechnologies.com/bajra_snippets/static/src/img/project_management.png",
-          alt: "Project Management Suport and Services",
-          title: "Project Management Suport and Services",
-          description: "Our agile development strategy is effective because it stands on the shoulders of our"
+          alt: "Effective Project Management Solutions",
+          title: "Effective Project Management Solutions",
+          description: "Achieve success with our effective project management solutions..."
      },
      {
           image: "https://bajratechnologies.com/bajra_snippets/static/src/img/consultation.png",
-          alt: "Consulting and Advisory Services",
-          title: "Consulting and Advisory Services",
-          description: "Bajra is home to diverse experts in different fields required to develop software solutions"
+          alt: "Strategic Advisory Services",
+          title: "Strategic Advisory Services",
+          description: "Offering strategic advisory services at COL Technology..."
      },
      {
           image: "https://bajratechnologies.com/bajra_snippets/static/src/img/support_maintainance.png",
-          alt: "Support and Maintenance Services",
-          title: "Support and Maintenance Services",
-          description: "Once you start with Bajra, we will deliver as your closest partner from beginning to end"
+          alt: "Comprehensive Maintenance Services",
+          title: "Comprehensive Maintenance Services",
+          description: "Providing comprehensive maintenance services at COL Technology..."
      },
      {
           image: "https://bajratechnologies.com/bajra_snippets/static/src/img/continuous_delivery.png",
-          alt: "Continuous Delivery and Code Deployment",
-          title: "Continuous Delivery and Code Deployment",
-          description: "Continuous Delivery is an important development practice where we focus on"
+          alt: "Automated Deployment Solutions",
+          title: "Automated Deployment Solutions",
+          description: "Offering automated deployment solutions to optimize continuous delivery practices..."
      },
      {
           image: "https://bajratechnologies.com/bajra_snippets/static/src/img/software_monitoring.png",
@@ -111,9 +106,9 @@ const services = [
      },
      {
           image: "https://bajratechnologies.com/bajra_snippets/static/src/img/hardware_software.png",
-          alt: "Custom Hardware and Software",
-          title: "Custom Hardware and Software",
-          description: "At Bajra, we take pride in our expertise in crafting Custom Hardware and Software solutions that"
+          alt: "Customized Technology Innovations",
+          title: "Customized Technology Innovations",
+          description: "Driving customized technology innovations at COL Technology..."
      },
 ];
 

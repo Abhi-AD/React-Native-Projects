@@ -7,12 +7,11 @@ const Portfolio = () => {
         <div className="row">
           <section className="banner_wrapper_contact">
             <div className="container">
-              <div className="text-center position-relative custom-z-index text-light fadeInUp">
+              <div className="text-center w-75 mx-auto position-relative custom-z-index text-light fadeInUp">
                 <h2 className="fw-semibold fs-3">OUR WORK</h2>
-                <h2 className="fw-bold fs-1">Innovate. Solve. Deliver. Repeat.</h2>
+                <h2 className="fw-bold fs-1">Imagine. Solve. Implement. Evolve.</h2>
                 <p className="px-5 fs-5 fw-normal text-white">
-                  <span className="fs-5"> With years of experience, we always deliver to exacting standards and ensure customer satisfaction.
-                    Interested in what we have done so far? Take a look. <br /><br /></span>
+                  <span className="fs-5">Drawing on years of expertise, our consistent delivery of high standards guarantees customer satisfaction. Want to see what we’ve accomplished? Check it out.<br /><br /></span>
                 </p>
               </div>
             </div>

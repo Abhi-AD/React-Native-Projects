@@ -9,13 +9,10 @@ const ProcessSection = () => {
                               <div className="container">
                                    <div className="row justify-content-center">
                                         <div className="col-12 col-md-7">
-                                             <h5 className="fs-3 fw-normal text-main">Our Process</h5>
-                                             <h2 className="fs-1 fw-semibold py-2">How We Work</h2>
+                                             <h5 className="fs-3 fw-normal text-main">Our Methodology</h5>
+                                             <h2 className="fs-1 fw-semibold py-2">Our Operational Approach</h2>
                                              <p>
-                                                  We bring your ideas to life using the right tools, technology, and platform to meet your needs.
-                                                  We put our partners at the forefront and work collaboratively to meet their strategic goals,
-                                                  administrative requirements, resource constraints, and technological needs.
-                                             </p>
+                                                  We empower COL Technology to actualize your vision through adept use of tools, technology, and platforms tailored to your specifications. Placing our partners at the forefront, we foster collaboration to achieve strategic objectives while addressing administrative needs, resource limitations, and technological requirements. </p>
                                         </div>
                                    </div>
                               </div>
@@ -28,7 +25,7 @@ const ProcessSection = () => {
                                              <section className="text-content_process">
                                                   <h3 className="fs-5 fw-normal text-main mb-0 mt-4 o_default_snippet_text">1</h3>
                                                   <h3 className="text-lg fw-semibold text-dark text-uppercase">VISION</h3>
-                                                  <p>Step one is ensuring that we understand the full extent and details of your vision</p>
+                                                  <p>Our first step involves comprehensively understanding every detail of your vision</p>
                                              </section>
                                         </section>
                                         <section className="image-container-wrapper process-sections fadeandshow" style={{ animationDelay: '0.3s' }}>
@@ -63,7 +60,7 @@ const ProcessSection = () => {
                                              <section className="text-content_process">
                                                   <h3 className="fs-5 fw-normal text-main mb-0 mt-4 o_default_snippet_text">2</h3>
                                                   <h3 className="text-lg fw-semibold text-dark text-uppercase">Plan</h3>
-                                                  <p>We create the architecture, pick the right tools for the job, and build the roadmap for you.</p>
+                                                  <p>We design the framework, select the optimal tools, and establish a clear roadmap for your project.</p>
                                              </section>
                                         </section>
                                    </section>
@@ -72,7 +69,7 @@ const ProcessSection = () => {
                                              <section className="text-content_process">
                                                   <h3 className="fs-5 fw-normal text-main mb-0 mt-4">3</h3>
                                                   <h3 className="text-lg fw-semibold text-dark text-uppercase">Design</h3>
-                                                  <p>Based on your ideas, we create wireframes, mockups, and with your feedback to final designs.</p>
+                                                  <p>We translate your ideas into wireframes, mockups, and refine them based on your feedback to achieve final designs.</p>
                                              </section>
                                         </section>
                                         <section className="image-container-wrapper process-sections fadeandshow" style={{ animationDelay: '1.5s' }}>
@@ -107,7 +104,7 @@ const ProcessSection = () => {
                                              <section className="text-content_process">
                                                   <h3 className="fs-5 fw-normal text-main mb-0 mt-4">4</h3>
                                                   <h3 className="text-lg fw-semibold text-dark text-uppercase">DEVELOP</h3>
-                                                  <p>Based on the approved designs we start working towards the milestones in the plan.</p>
+                                                  <p>Upon finalizing the approved designs, we commence progress towards achieving the milestones outlined in the plan.</p>
                                              </section>
                                         </section>
                                    </section>
@@ -116,7 +113,7 @@ const ProcessSection = () => {
                                              <section className="text-content_process">
                                                   <h3 className="fs-5 fw-normal text-main mb-0 mt-4">5</h3>
                                                   <h3 className="text-lg fw-semibold text-dark text-uppercase">Feedback</h3>
-                                                  <p>We ensure that the team is doing it right by presenting you with an early set of prototypes to analyze.</p>
+                                                  <p>To ensure accuracy, we present you with early prototypes for analysis to confirm the team&apos;s approach.</p>
                                              </section>
                                         </section>
                                         <section className="image-container-wrapper process-sections fadeandshow" style={{ animationDelay: '2.7s' }}>
@@ -148,7 +145,7 @@ const ProcessSection = () => {
                                              <section className="text-content_process">
                                                   <h3 className="fs-5 fw-normal text-main mb-0 mt-4">6</h3>
                                                   <h3 className="text-lg fw-semibold text-dark text-uppercase">Deploy</h3>
-                                                  <p>An automated deployment process will ensure timely delivery followed up with maintenance and support.</p>
+                                                  <p>Timely delivery is guaranteed through our automated deployment process, coupled with ongoing maintenance and support.</p>
                                              </section>
                                         </section>
                                    </section>

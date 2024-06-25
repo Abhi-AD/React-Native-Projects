@@ -20,31 +20,31 @@ const Header = () => {
                             />
                             <div className="text-content fs-1">
                                 <h1 className="heading-title fs-1 lh-sm text-light">
-                                    Years of industry experience in Building Technologies&nbsp;
-                                    <span className="last-text">that bring Ideas to Life</span>.
+                                    Extensive background in COL Technology&nbsp;
+                                    <span className="last-text">bringing Ideas to fruition.</span>.
                                 </h1>
-                                <p className="fs-4 lh-1 text-light">At Bajra Technologies, We Make Your Ideas Work.</p>
+                                <p className="fs-4 lh-1 text-light">Creating Solutions from Your Ideas at COL Technology.</p>
                             </div>
                             <div className="button-content mt-5">
                                 <div className="row mt-2">
-                                    <div className="col-lg-7">
+                                    <div className="col-lg-8">
                                         <section className="d-flex align-items-center border border-light border-2 p-0 rounded text-white mb-3 mb-lg-0 overflow-hidden">
                                             <Link className="move d-inline-flex align-items-center text-decoration-none text-white py-3 px-4" to={"/contactus"}>
-                                                Let’s start the conversation
+                                                Start the Discussion with Us
                                                 <img
-                                                    className="ms-4 arrow"
+                                                    className="ms-1 arrow"
                                                     src="https://bajratechnologies.com/bajra_snippets/static/src/img/icon/arrow.svg"
                                                     alt="Arrow"
                                                 />
                                             </Link>
                                         </section>
                                     </div>
-                                    <div className="col-lg-5">
+                                    <div className="col-lg-4">
                                         <div className="ms-lg-3 fs-6 lh-lg text-white">
                                             OR,
                                             <br />
                                             <a href="/portfolio" className="text-light text-decoration-none">
-                                                <span>Check out what we’ve done</span>
+                                                <span>Explore Our Portfolio</span>
                                             </a>
                                             ...
                                         </div>

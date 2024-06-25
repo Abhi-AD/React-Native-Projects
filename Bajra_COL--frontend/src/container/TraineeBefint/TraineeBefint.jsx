@@ -1,23 +1,23 @@
 
 const benefits = [
      {
-          title: "Paid Traineeships",
-          text: "We value our trainees' contributions, offering competitive compensation to support your learning journey.",
+          Title: "Earning While Learning",
+          text: "At our program, we recognize the value of our trainees' efforts and offer competitive pay to support you as you grow and learn.",
           imgSrc: "https://bajratechnologies.com/web/image/41681/Icon.png",
      },
      {
-          title: "Food and Refreshments",
-          text: "Enjoy complimentary meals and refreshments to keep you energized provided throughout the program.",
+          Title: "Meals and Refreshments Provided",
+          text: "Benefit from complimentary meals and refreshments to keep your energy levels high throughout the program.",
           imgSrc: "https://bajratechnologies.com/web/image/41682/Icon%281%29.png",
      },
      {
-          title: "Mentorship Opportunities",
-          text: "Receive personalized guidance from industry experts in our mentorship program, ensuring your success.",
+          Title: "Guidance from Industry Experts",
+          text: "Receive tailored mentorship from seasoned professionals, helping you achieve your career goals.",
           imgSrc: "https://bajratechnologies.com/web/image/41684/Icon%282%29.png",
      },
      {
-          title: "Career Growth",
-          text: "Unlock your career potential with our traineeship program, accelerating your growth in the tech industry.",
+          Title: "Career Development",
+          text: "Enhance your career potential and fast-track your growth in the tech sector through our traineeship program.",
           imgSrc: "https://bajratechnologies.com/web/image/41685/Icon%283%29.png",
      },
      {
@@ -26,8 +26,8 @@ const benefits = [
           imgSrc: "https://bajratechnologies.com/web/image/41686/Icon%284%29.png",
      },
      {
-          title: "Placement Assistance",
-          text: "Transition smoothly into tech careers with our placement assistance. Count on us for your career success.",
+          Title: "Job Placement Services",
+          text: "Easily move into tech roles with our job placement services. We are committed to ensuring your career success.",
           imgSrc: "https://bajratechnologies.com/web/image/41687/Icon%285%29.png",
      },
 ];
@@ -37,13 +37,13 @@ const TraineeBenefit = () => {
           <div className="container mb-5">
                <div className="container text-center">
                     <p className=" w-75 mx-auto fs-4 fw-semibold text-main">
-                         Trainee Benefits
+                         Advantages for Trainees
                     </p>
                     <p className=" w-75 lh-sm mx-auto fs-1 mt-4 mb-4">
-                         Discover The Perks of Joining Bajra’s Traineeship Program
+                         Uncover the Advantages of Joining COL Traineeship
                     </p>
                     <p className="w-75 mx-auto fs-6">
-                         Embracing our program opens the door to a plethora of invaluable benefits as you set sail on your journey toward professional advancement and personal development.
+                         Participating in our program opens the door to a multitude of invaluable benefits, fostering your professional and personal growth.
                     </p>
                </div>
 

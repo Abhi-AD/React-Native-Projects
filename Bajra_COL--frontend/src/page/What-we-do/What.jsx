@@ -7,11 +7,11 @@ const What = () => {
         <div className="row">
           <section className="banner_wrapper_contact">
             <div className="container w-10">
-              <div className="text-center position-relative custom-z-index text-light fadeInUp">
+              <div className="text-center w-75 mx-auto position-relative custom-z-index text-light fadeInUp">
                 <h2 className="fw-semibold fs-3">WHAT WE DO</h2>
-                <h2 className="fw-bold fs-1">We Ship Success Everyday</h2>
+                <h2 className="fw-bold fs-1">Delivering Success Daily</h2>
                 <p className="px-5 fs-5 fw-normal text-white">
-                  <span className="fs-5">Bajra has always focused on delivering best mobile and web-based solutions to our clients across various domains. With years of experience in enterprise and non-enterprise projects , we are confident that we can cater to the diverse requirements of our clients. <br /><br /></span>
+                  <span className="fs-5">COl has consistently aimed to deliver premier mobile and web solutions to our clients across diverse domains. With years of experience in enterprise and non-enterprise projects, we confidently cater to the varied needs of our clientele.<br /><br /></span>
                 </p>
               </div>
             </div>

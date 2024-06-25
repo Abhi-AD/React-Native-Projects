@@ -6,13 +6,14 @@ const Trainee = () => {
       <section className=" position-relative top-n3 overflow-hidden mb-n3 position-relative header" data-name="Animated Banner">
         <div className="row">
           <section className="banner_wrapper_contact">
-            <div className="container w-10">
-              <div className="text-center position-relative custom-z-index text-light fadeInUp">
+            <div className="container">
+              <div className="text-center w-75 mx-auto position-relative custom-z-index text-light fadeInUp">
                 <h2 className="fw-semibold fs-3">WHAT WE DO</h2>
-                <h2 className="fw-bold fs-1">We Ship Success Everyday</h2>
+                <h2 className="fw-bold fs-1">Empowering Success Daily</h2>
                 <p className="px-5 fs-5 fw-normal text-white">
-                  <span className="fs-5">Bajra has always focused on delivering best mobile and web-based solutions to our clients across various domains. With years of experience in enterprise and non-enterprise projects , we are confident that we can cater to the diverse requirements of our clients. <br /><br /></span>
+                  <span className="fs-5">COL is dedicated to delivering superior mobile and web solutions to clients across different sectors. Drawing from years of experience in enterprise and non-enterprise projects, we confidently address the unique demands of our clients.</span>
                 </p>
+
               </div>
             </div>
             <img className="circle-move right_first_circle_contact" src="https://bajratechnologies.com/bajra_snippets/static/src/img/right_first_circle.png" alt="Circle" />
@@ -29,9 +30,9 @@ const Trainee = () => {
               <img src="https://bajratechnologies.com/web/image/41676/Image%281%29.png" alt="" className="img-fluid" />
             </div>
             <div className="col-md-6">
-              <p className="fs-3 text-main">Discover Bajra Traineeship</p>
+              <p className="fs-3 text-accent">Unveil COL Traineeship</p>
               <p className="fs-1 lh-sm">Introduction</p>
-              <p className="fs-6 lh-lg">Bajras batch traineeship program is designed to bridge the gap between academia and industry, ensuring that participants are well-prepared for the challenges and opportunities of the tech sector. Our program covers a spectrum of hands-on experience in tech roles, from software development and data science to UI/UX and Project Management, while also prioritizing essential soft skills, like communication, teamwork, presentation, and problem-solving. Join us and embark on a transformative journey toward success in the ever-evolving tech landscape.</p>
+              <p className="fs-6 lh-lg">The COL batch traineeship program is meticulously designed to bridge the gap between academic knowledge and industry demands. It provides extensive hands-on experience in a range of tech roles including software engineering, data analysis, UI/UX design, and project coordination. Additionally, the program places a strong emphasis on vital soft skills such as effective communication, teamwork, presentation, and strategic problem-solving. Embark on this transformative journey with us to thrive in the fast-paced tech landscape.</p>
             </div>
           </div>
         </div>

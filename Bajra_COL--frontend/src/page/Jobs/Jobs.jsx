@@ -34,12 +34,12 @@ const Jobs = () => {
           <div className="row">
             <section className="banner_wrapper_contact">
               <div className="col-md-6">
-                <div className=" position-relative custom-z-index text-light fadeInUp">
+                <div className=" position-relative w-75 mx-auto custom-z-index text-light fadeInUp">
                   <h2 className="fw-semibold fs-5">Careers</h2>
-                  <h2 className="fw-normal lh0sm fs-5">Come Become a Part of One of The Best  Technology Firms in Nepal!Come Become a Part of One of The Best  Technology Firms in Nepal!</h2>
+                  <h2 className="fw-normal lh-sm fs-5">Discover Your Career at One of Nepal&apos;s Best Technology Companies!</h2>
                   <section className="button">
                     <Link className="jobs-convolink move" to="/contactus" spellCheck="false">
-                      Let’s start the conversation
+                      Start the Discussion with Us
                       <img
                         className="arrow"
                         src="https://bajratechnologies.com/bajra_snippets/static/src/img/icon/arrow.svg"
@@ -63,8 +63,8 @@ const Jobs = () => {
               <img src="https://bajratechnologies.com/web/image/38143/Rectangle%208.png" alt="" className="img-fluid " />
             </div>
             <div className="col-md-6 justify-content-center align-items-center">
-              <p className="fs-1 lh-sm">Our Values</p>
-              <p className="fs-6 lh-lg">Working at Bajra is not just a job; it&apos;s a continuous journey of honing your expertise and embracing the fact that perfection is a journey that begins from the very start. Our ultimate goal here is to become the best in our fields and to do the best job we can, no matter how small the task. We believe in professional development as the foundation of our team and eventually of the entire company which we achieve through training, exposure, and coaching where required. </p>
+              <p className="fs-1 lh-sm">Our Beliefs</p>
+              <p className="fs-6 lh-lg">Working at COL goes beyond mere employment; it&apos;s an ongoing quest to refine your skills, understanding that excellence is a journey commencing right from the outset. Our primary objective is to excel in our respective domains, committing to excellence in every task, no matter its scale. We prioritize professional growth as the bedrock of our team and the cornerstone of our company&apos;s success, achieved through comprehensive training, exposure, and targeted coaching.</p>
               <div className="card shadow border-0">
                 <div className="row h-100 mt-4">
                   {counts.map((stat, index) => (
@@ -94,11 +94,10 @@ const Jobs = () => {
           <div className="row justify-content-center">
 
             <div className="col-md-5 justify-content-center align-items-center">
-              <p className="fs-1 lh-sm">Join Our Team</p>
-              <p className="fs-6 text-secondary lh-lg">We are always looking for good people to come to work with us. We care less about your past experience and more about your ability to learn as well as your grasp of fundamental concepts. We are an innovative team and help each other grow in a collaborative atmosphere.</p>
-              <p className="fs-6 text-secondary lh-lg">Here at Bajra, we value having a friendly and collaborative working environment while taking our work very seriously. Everyone&apos;s work and input are judged solely on merit, with seniority carrying little weight. We encourage you to innovate and take risks. Everyone is accessible, so go ahead and ask for help when you are stuck, and reciprocate when needed. Everyone&apos;s work is regularly critiqued to ensure our products meet Bajra&apos;s high standards while helping you personally learn and grow. At Bajra, we are one team.</p>
-              <p className="fs-6 text-secondary lh-lg">Please note that our environment does not provide handholding. We believe in promoting creativity and learning through your own efforts with the necessary aid from our senior people. If this sounds like the right place for you, take a look at the current job openings we have below. </p>
-            </div>
+              <p className="fs-1 lh-sm">Join Our Growing Team</p>
+              <p className="fs-6 text-secondary lh-lg">At our company, we&apos;re constantly seeking talented individuals to join our team. We prioritize your capacity to learn and grasp fundamental concepts over past experience. Our environment fosters innovation and collaborative growth. </p>
+              <p className="fs-6 text-secondary lh-lg">At COL, we cherish a friendly and collaborative workplace culture alongside a strong commitment to our work. We evaluate everyone&apos;s contributions solely on merit, with little emphasis on seniority. We encourage boldness in innovation and risk-taking. We operate with an open-door policy, where asking for help and offering assistance are both encouraged. Regular feedback ensures our products meet COL high standards while supporting your personal development. Here at COL, we&apos;re all one team.</p>
+              <p className="fs-6 text-secondary lh-lg">Please note, our environment is not about handholding; we promote creativity and learning through individual efforts, supplemented by guidance from our senior team members. If this resonates with you, explore our current job openings below.</p> </div>
 
 
             <div className="col-md-6 d-flex flex-column align-items-center">
@@ -127,18 +126,20 @@ const Jobs = () => {
               <div className="card bg-light border-0 col-md-6">
                 <img src="https://bajratechnologies.com/web/image/38152/Rectangle%208%20%281%29.png" className="card-img-top img-fluid" alt="Work-life Balance Image" />
                 <div className="card-body">
-                  <p className="card-text fw-bold fs-5 mb-0">Work-life Balance</p>
-                  <p className="card-text fs-6">We understand that a high-pace work environment can create many stresses and we work actively to maintain required balance between our employees’ personal and professional lives through group activities and other company-wide endeavors.</p>
+                  <p className="card-text fw-bold fs-5 mb-0">Prioritizing Well-being</p>
+                  <p className="card-text fs-6">We prioritize the well-being of our team by fostering a supportive environment that values work-life balance. Through group activities and company-wide initiatives, we ensure our employees thrive both personally and professionally.</p>
                 </div>
+
               </div>
 
 
               <div className="card bg-light border-0 col-md-6">
                 <img src="https://bajratechnologies.com/web/image/38156/compensation%20and%20benefits%20%281%29.jpg" className="card-img-top img-fluid" alt="..." />
                 <div className="card-body">
-                  <p className="card-text fw-bold fs-5 mb-0">Compensation and Benefits</p>
-                  <p className='card-text fs-6'>We provide market-leading compensation to our talented employees along with some of the best perks and other benefits to ensure that every Bajra employee can feel proud of being part of this esteemed group of problem solvers.</p>
+                  <p className="card-text fw-bold fs-5 mb-0">Recognizing Employee Value</p>
+                  <p className="card-text fs-6">At COL, we recognize the invaluable contributions of our team members with competitive compensation and exceptional benefits. Our commitment to excellence extends beyond work to ensure every employee feels appreciated and empowered.</p>
                 </div>
+
               </div>
             </div>
           </div>
@@ -152,19 +153,21 @@ const Jobs = () => {
               <div className="card border-0 col-md-6">
                 <img src="https://bajratechnologies.com/web/image/38350/Rectangle%2040.png" className="card-img-top img-fluid" alt="..." />
                 <div className="card-body">
-                  <p className="card-text fw-bold fs-5 mb-0">Looking for a suitable career opportunity with no prior experience?</p>
-                  <p className='card-text fs-6'>We have the perfect solution for you to discover and develop your skills. Find out more about the traineeship opportunities.</p>
-                  <Link to={'/jobs'} className="btn text-main fw-bold">Check Out Here <i className="bi bi-arrow-right"></i></Link>
+                  <p className="card-text fw-bold fs-5 mb-0">Searching for career opportunities without experience?</p>
+                  <p className='card-text fs-6'>Unlock your potential with our comprehensive traineeship programs designed to build your skills from the ground up.</p>
+                  <Link to={'/jobs'} className="btn text-main fw-bold">Learn More <i className="bi bi-arrow-right"></i></Link>
                 </div>
+
               </div>
 
               <div className="card border-0 col-md-6">
                 <img src="https://bajratechnologies.com/web/image/38351/Rectangle%2040%281%29.png" className="card-img-top img-fluid" alt="..." />
                 <div className="card-body">
-                  <p className="card-text fw-bold fs-5 mb-0">Passionate about technology but no current openings match your profile?</p>
-                  <p className='card-text fs-6'>Fill out the form and upload your resume. We’ll get back to you if there&apos;s a suitable opportunity matching your expertise.</p>
-                  <Link to={'/jobs'} className="btn text-main fw-bold">Drop Your Resume <i className="bi bi-arrow-right"></i></Link>
+                  <p className="card-text fw-bold fs-5 mb-0">Interested in launching your career with no prior experience?</p>
+                  <p className='card-text fs-6'>Discover how our traineeship programs can equip you with the skills and knowledge you need to succeed.</p>
+                  <Link to={'/jobs'} className="btn text-main fw-bold">Explore Opportunities <i className="bi bi-arrow-right"></i></Link>
                 </div>
+
               </div>
             </div>
           </div>

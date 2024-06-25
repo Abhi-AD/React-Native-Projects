@@ -41,34 +41,35 @@ function Termional() {
 }
 const testimonials = [
      {
-          quote:
-               "We were very impressed with Bajra from day one. I liked that they told us up front the specific code base they use, the hosting platform they use, and so forth. Right off the bat, they took care of some of those decisions that would be difficult for software lay people to make. They held semi-daily standups with us to keep communication as fluid as possible. We do not have any developers on staff, but that didn’t cause us any problems as communicating directly with their developers was very easy.",
-          author: "Jeff DeBolt",
-          title: "Accounting Systems Guru, MuseMinded"
+          quote: "We were thoroughly impressed with SmithTech right from the start. They were transparent about their technology stack, hosting preferences, and other technical decisions that can be daunting for non-tech professionals. Their regular standup meetings ensured seamless communication throughout the project. Despite not having an in-house development team, we faced no hurdles as direct communication with their developers was effortless.",
+          author: "Alice Johnson",
+          title: "Marketing Director, Bright Solutions Inc."
+
+     },
+     {
+          quote: "I highly recommend COL Technology to anyone looking for custom mobile or web application development. Over the past four years, I have partnered with COL Technology to deliver several sophisticated online applications. With each engagement, the COL Technology team treated my customers like their own.",
+          author: "Samantha Rodriguez",
+          title: "Chief Technology Officer, Grymatter"
      },
      {
           quote:
-               "I highly recommend Bajra Technologies to anyone looking for custom mobile or web application development. Over the past four years, I have partnered with Bajra to deliver several sophisticated online applications. With each engagement, the Bajra team treated my customers like their customers.",
-          author: "Justin Bryant",
-          title: "CEO, Grymatter"
+               "I'm consistently amazed by the speed and quality of work Zephyr can accomplish for us across multiple products and projects. They have truly become an invaluable extension of our team, demonstrating thoughtful consideration in every task.",
+          author: "Sarah Chen",
+          title: "Chief Operating Officer, NexGen Innovations"
      },
      {
           quote:
-               "I'm continually amazed by both the speed and quality of work Bajra can accomplish for us across multiple products and projects. More than a partner, we consider them to be an extension of our own team due to the thought and care they put into every request.",
-          author: "Jake LaCivita",
-          title: "VP of Product, Smarter Sorting"
+               "A strong sense of rhythm and outstanding project management at Bajra ensured we didn't have to stress over tracking every detail. Their Agile approach provided the transparency I required. I hold this team in the highest regard and wholeheartedly recommend them for all your technological requirements.",
+          author: "Jessica Chen",
+          title: "CEO, Tech Innovators Inc."
+
      },
      {
           quote:
-               "A good rhythm and excellent project management on Bajra’s end meant we didn’t have to worry about keeping track of all the work details. Their Agile methodology allowed me to get visibility into pieces I needed. I have only the highest regard for this team and would highly recommend them for any of your technological needs.",
-          author: "Nishan Subedi",
-          title: "Co-founder and CTO, Harvest Platform"
-     },
-     {
-          quote:
-               "Their knowledge of mobile apps and web development with the understanding and ability to help turn your ideas and drawings into active products is incredible. I wanted to build a music streaming app, and Bajra built out a masterful music streaming mobile app and platform that can be used universally used! Score!",
-          author: "Adell Hendon",
-          title: "CEO, YouSpin"
+               "Their expertise in mobile app and web development, combined with their capability to transform concepts and sketches into functional products, is remarkable. I had a vision for a music streaming app, and Bajra delivered an exceptional mobile app and platform for universal use. A definite win!",
+          author: "Evan Patel",
+          title: "Founder, TuneWave"
+
      }
 ];
 export default Termional;

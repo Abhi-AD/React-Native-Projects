@@ -5,13 +5,13 @@ import './Contact.css'; // Import the CSS file
 const Contact = () => {
   return (
     <div>
-      <section className=" position-relative top-n3 overflow-hidden mb-n3 position-relative header" data-name="Animated Banner" >
+      <section className=" position-relative top-2 overflow-hidden mb-0 position-relative header" data-name="Animated Banner" style={{ height: '35rem' }} >
         <div className="row">
           <section className="banner_wrapper_contact">
-            <div className="text-center position-relative custom-z-index text-light fadeInUp">
+            <div className="text-center position-relative w-50 mx-auto  custom-z-index text-light fadeInUp">
               <h2 className="fw-semibold">Contact Us</h2>
               <p className="px-5 fs-5 fw-normal text-white">
-                <span className="fs-5">Get in touch with us about anything related to our company or services. <br /><br /></span>
+                <span className="fs-5">Feel free to contact us regarding any questions or inquiries you have about our company or services. Whether you&apso;re seeking more information or want to discuss potential opportunities, we&apos;re here to help. <br /><br /></span>
               </p>
             </div>
             <img className="circle-move right_first_circle_contact" src="https://bajratechnologies.com/bajra_snippets/static/src/img/right_first_circle.png" alt="Circle" />
