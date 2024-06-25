@@ -1,6 +1,20 @@
 import { Link } from 'react-router-dom';
-import logo from '../../assets/bajra_col--logo.png'
+import lglogo from '../../assets/bajra_col_lg-logo.png'
+import smlogo from '../../assets/bajra_col--smlogo.png'
+import { useEffect, useState } from 'react';
 function Footer() {
+  const [isWideScreen, setIsWideScreen] = useState(window.innerWidth > 768);
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsWideScreen(window.innerWidth > 768);
+    };
+
+    window.addEventListener('resize', checkScreenSize);
+
+    return () => {
+      window.removeEventListener('resize', checkScreenSize);
+    };
+  }, []);
   return (
     <footer id="bottom" data-anchor="true" className="o_footer py-5 text-light footer">
       <div id="footer" className="oe_structure oe_structure_solo container">
@@ -9,7 +23,11 @@ function Footer() {
             <section className="anim_footer top_footer fadeInUp row border-bottom">
               <div className="col-md-3 text-center text-md-left mb-3 mb-md-0 pb-3">
                 <section className="logo_wrapper">
-                  <img src={logo} alt="Logo" width="90" height="70" className="d-inline-block align-text-top" />
+                  {isWideScreen ? (
+                    <img src={lglogo} alt="Logo" width="120" height="100" className="d-inline-block align-text-top" />
+                  ) : (
+                    <img src={smlogo} alt="Logo" width="85" height="80" className="d-inline-block align-text-top " />
+                  )}
                   <div className="fs-5 fw-bold pt-1 text-light">
                     <p className='fs-1 mb-0 text-light'>COL</p>
                     <p className='mb-0 text-light'>Technology</p>

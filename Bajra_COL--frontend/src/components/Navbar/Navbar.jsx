@@ -1,7 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
-import logo from "../../assets/bajra_col--logo.png";
+import lglogo from "../../assets/bajra_col_lg-logo.png";
+import smlogo from "../../assets/bajra_col--smlogo.png";
 import { DarkMode } from "../import";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const navLinks = [
   { path: "/", name: "Home" },
@@ -15,6 +16,7 @@ const navLinks = [
 const Navbar = () => {
   const location = useLocation();
   const navbarToggle = useRef(null);
+  const [isWideScreen, setIsWideScreen] = useState(window.innerWidth > 768);
 
   const isActive = (path) => {
     return location.pathname === path ? 'fw-bold text-light' : 'text-light';
@@ -22,27 +24,37 @@ const Navbar = () => {
 
   const handleNavLinkClick = () => {
     if (navbarToggle.current && window.getComputedStyle(navbarToggle.current).display !== 'none') {
-      navbarToggle.current.click();
+      navbarToggle.current.click(); // Close navbar if open
+    }
+  };
+
+  const handleNavbarBrandClick = () => {
+    if (navbarToggle.current && window.getComputedStyle(navbarToggle.current).display !== 'none') {
+      navbarToggle.current.click(); // Close navbar if open
     }
   };
 
   useEffect(() => {
-    const navLinks = document.querySelectorAll('.nav-link');
-    navLinks.forEach(link => {
-      link.addEventListener('click', handleNavLinkClick);
-    });
+    const checkScreenSize = () => {
+      setIsWideScreen(window.innerWidth > 768);
+    };
+
+    window.addEventListener('resize', checkScreenSize);
+
     return () => {
-      navLinks.forEach(link => {
-        link.removeEventListener('click', handleNavLinkClick);
-      });
+      window.removeEventListener('resize', checkScreenSize);
     };
   }, []);
 
   return (
     <nav className="navbar navbar-expand-lg bg-main">
       <div className="container">
-        <Link className="navbar-brand" to="/">
-          <img src={logo} alt="Logo" width="100" height="54" className="d-inline-block align-text-top" />
+        <Link className="navbar-brand" to="/" onClick={handleNavbarBrandClick}>
+          {isWideScreen ? (
+            <img src={lglogo} alt="Logo" width="120" height="100" className="d-inline-block align-text-top" />
+          ) : (
+            <img src={smlogo} alt="Logo" width="85" height="80" className="d-inline-block align-text-top " />
+          )}
         </Link>
         <button ref={navbarToggle} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -51,12 +63,25 @@ const Navbar = () => {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             {navLinks.map((link, index) => (
               <li key={index} className="nav-item me-1">
-                <Link className={`nav-link ${isActive(link.path)}`} to={link.path}>{link.name}</Link>
+                <Link className={`nav-link ${isActive(link.path)}`} to={link.path} onClick={handleNavLinkClick}>
+                  {link.name}
+                </Link>
               </li>
             ))}
-            <li className="nav-item border border-light border-2 rounded me-1">
-              <Link className={`nav-link ${isActive('/contactus')}`} to="/contactus">Contact Us</Link>
-            </li>
+
+            {isWideScreen ? (
+              <li className="nav-item border border-light border-2 rounded me-1">
+                <Link className={`nav-link ${isActive('/contactus')}`} to="/contactus" onClick={handleNavLinkClick}>
+                  Contact Us
+                </Link>
+              </li>
+            ) : (
+              <li className="nav-item border border-light border-2 rounded me-1 w-25 p-1">
+                <Link className={`nav-link ${isActive('/contactus')}`} to="/contactus" onClick={handleNavLinkClick}>
+                  Contact Us
+                </Link>
+              </li>
+            )}
             <DarkMode />
           </ul>
         </div>

@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <section className="header position-relative custom-height" data-name="Animated Hero Home">
+        <section className="header position-relative" data-name="Animated Hero Home" style={{ height: '50rem' }}>
             <div className="container  h-100">
                 <div className="row p-5 align-items-center h-50">
                     <div className="col-md-6 order-1 order-md-1 me-4">
