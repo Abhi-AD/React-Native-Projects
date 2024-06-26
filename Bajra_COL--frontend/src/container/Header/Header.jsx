@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Header.css';
+import { Hero_Big_Circle, Hero_Small_Circle } from "../Parnter/images";
 
 const Header = () => {
     return (
@@ -10,12 +11,12 @@ const Header = () => {
                         <div className="position-relative h-100">
                             <img
                                 className="big-circle img-fluid position-absolute left-0 top-0 mw-90 mh-90"
-                                src="https://bajratechnologies.com/bajra_snippets/static/src/img/hero_big_circle.png"
+                                src={Hero_Big_Circle}
                                 alt="Big Circle"
                             />
                             <img
                                 className="small-circle img-fluid position-absolute l   eft-0 top-0 mw-90 mh-90"
-                                src="https://bajratechnologies.com/bajra_snippets/static/src/img/hero_small_circle.png"
+                                src={Hero_Small_Circle}
                                 alt="Small Circle"
                             />
                             <div className="text-content fs-1">

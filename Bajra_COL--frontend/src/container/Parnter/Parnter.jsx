@@ -1,4 +1,4 @@
-import { Brand_guarde, DriverReach, Foster_keeper, Harverst, Museminded, Republic_services, Smarter, Tempo_communications } from "./import";
+import { Brand_guarde, DriverReach, Foster_keeper, Harverst, Museminded, Republic_services, Smarter, Tempo_communications } from "./images";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

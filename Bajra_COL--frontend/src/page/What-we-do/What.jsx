@@ -1,4 +1,5 @@
 import { Connect, Course } from "../../container/import"
+import { Right_First_Circle, Right_Second_Circle, Right_Third_Circle } from "../../container/Parnter/images";
 
 const What = () => {
   return (
@@ -15,9 +16,9 @@ const What = () => {
                 </p>
               </div>
             </div>
-            <img className="circle-move right_first_circle_contact" src="https://bajratechnologies.com/bajra_snippets/static/src/img/right_first_circle.png" alt="Circle" />
-            <img className="circle-move right_second_circle_contact" src="https://bajratechnologies.com/bajra_snippets/static/src/img/right_second_circle.png" alt="Circle" />
-            <img className="circle-move right_third_circle_contact" src="https://bajratechnologies.com/bajra_snippets/static/src/img/right_second_circle.png" alt="Circle" />
+            <img className="circle-move right_first_circle_contact" src={Right_First_Circle} alt="Circle" />
+            <img className="circle-move right_second_circle_contact" src={Right_Second_Circle} alt="Circle" />
+            <img className="circle-move right_third_circle_contact" src={Right_Third_Circle} alt="Circle" />
           </section>
         </div>
       </section>

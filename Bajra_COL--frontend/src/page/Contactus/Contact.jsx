@@ -1,6 +1,5 @@
-// ContactBanner.js
-
-import './Contact.css'; // Import the CSS file
+import { Right_First_Circle, Right_Second_Circle, Right_Third_Circle } from "../../container/Parnter/images";
+import './Contact.css';
 
 const Contact = () => {
   return (
@@ -14,9 +13,9 @@ const Contact = () => {
                 <span className="fs-5">Feel free to contact us regarding any questions or inquiries you have about our company or services. Whether you&apso;re seeking more information or want to discuss potential opportunities, we&apos;re here to help. <br /><br /></span>
               </p>
             </div>
-            <img className="circle-move right_first_circle_contact" src="https://bajratechnologies.com/bajra_snippets/static/src/img/right_first_circle.png" alt="Circle" />
-            <img className="circle-move right_second_circle_contact" src="https://bajratechnologies.com/bajra_snippets/static/src/img/right_second_circle.png" alt="Circle" />
-            <img className="circle-move right_third_circle_contact" src="https://bajratechnologies.com/bajra_snippets/static/src/img/right_second_circle.png" alt="Circle" />
+            <img className="circle-move right_first_circle_contact" src={Right_First_Circle} alt="Circle" />
+            <img className="circle-move right_second_circle_contact" src={Right_Second_Circle} alt="Circle" />
+            <img className="circle-move right_third_circle_contact" src={Right_Third_Circle} alt="Circle" />
           </section>
         </div>
       </section>
