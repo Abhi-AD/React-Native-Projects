@@ -1,6 +1,6 @@
 .jobs {
      position: relative;
-     background: url(https://bajratechnologies.com/web/image/38133/bg%20%281%29.png) rgba(0, 0, 0, 0.5);
+     background: url(../../assets/Jobs/JobHeaderBg.png) rgba(0, 0, 0, 0.5);
      background-blend-mode: multiply;
      background-repeat: no-repeat;
      background-size: cover;
@@ -27,4 +27,3 @@
      transition: all 0.3s;
      background: var(--main-color);
 }
-

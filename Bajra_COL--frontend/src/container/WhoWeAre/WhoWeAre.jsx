@@ -1,10 +1,10 @@
-
+import contourlines from '../../assets/contourlines.png'
 const WhoWeAre = () => {
      return (
-          <div style={{ background: 'url(https://bajratechnologies.com/web/image/34905/contour%20lines.png)' }}>
+          <div style={{ background: `url(${contourlines})` }}>
                <div className="container">
                     <div className=" text-center my-5 w-lg--50 row">
-                         <p className="fs-2 mb-3 text-main ">The Crux of COL Technology</p>
+                         <p className="fs-2 mb-3 text-main ">The Crux of COL</p>
                          <p className="fs-1 mt-2 text-dark">What help do you need?</p>
                          <div className="col-md-8 mx-auto">
                               <p className="fs-6 text-secondary">

@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import ProgramTrainnerbg from '../../assets/Trainee/ProgramTrainnerbg.png';
 
-const ProgramTrainner = () => {
+const ProgramTrainer = () => {
      return (
-          <div className="bg-cover bg-center" style={{ backgroundImage: 'url(https://bajratechnologies.com/web/image/48175/4935872%201.png)' }}>
+          <div className="bg-cover bg-center" style={{ backgroundImage: `url(${ProgramTrainnerbg})` }}>
                <div className="d-flex justify-content-center align-items-center p-5 min-vh-50">
                     <div className="text-center">
                          <p className="fs-2">Initiate Your Journey with Our Batch Traineeship Program!</p>
@@ -13,7 +14,7 @@ const ProgramTrainner = () => {
                               <p className="mb-0">Phone: +977-01-5912344</p>
                          </div>
                          <div className="text-center pb-2 pt-4">
-                              <Link type="button" className="text-light btn fs-5 bg-main" to={"/drop-cv"}>
+                              <Link type="button" className="text-light btn btn-primary fs-5 bg-main" to={"/drop-cv"}>
                                    Submit Your CV<i className="bi bi-arrow-right" data-aos="fade-left"></i>
                               </Link>
                          </div>
@@ -23,4 +24,4 @@ const ProgramTrainner = () => {
      )
 }
 
-export default ProgramTrainner
+export default ProgramTrainer;

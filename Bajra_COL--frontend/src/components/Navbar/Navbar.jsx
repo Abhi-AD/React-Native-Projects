@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
-import lglogo from "../../assets/bajra_col_lg-logo.png";
-import smlogo from "../../assets/bajra_col--smlogo.png";
+import lglogo from "../../assets/Logo/bajra_col_lg-logo.png";
+import smlogo from "../../assets/Logo/bajra_col--smlogo.png";
 import { DarkMode } from "../import";
 import { useEffect, useRef, useState } from "react";
 
@@ -47,7 +47,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="navbar navbar-expand-lg bg-main">
+    <nav className="navbar navbar-expand-lg" style={{ background: '#0000FF 0%' }}>
       <div className="container">
         <Link className="navbar-brand" to="/" onClick={handleNavbarBrandClick}>
           {isWideScreen ? (

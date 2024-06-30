@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import './Jobs.css'
 import { useEffect, useState } from 'react';
+import { Beliefs, Card1, Card2, Cards1, Cards2, JoinOur1, JoinOur2, JoinOur3 } from '../../container/Parnter/images';
 const Jobs = () => {
   const statistics = [
     { count: 500, label: 'Project', threshold: 400 },
@@ -38,14 +39,11 @@ const Jobs = () => {
                   <h2 className="fw-semibold fs-5">Careers</h2>
                   <h2 className="fw-normal lh-sm fs-5">Discover Your Career at One of Nepal&apos;s Best Technology Companies!</h2>
                   <section className="button">
-                    <Link className="jobs-convolink move" to="/contactus" spellCheck="false">
+                    <Link className="jobs-convolink move d-flex align-items-center gap-1" to="/contactus" spellCheck="false">
                       Start the Discussion with Us
-                      <img
-                        className="arrow"
-                        src="https://bajratechnologies.com/bajra_snippets/static/src/img/icon/arrow.svg"
-                        alt="Arrow"
-                      />
+                      <i className="bi bi-arrow-right fs-4"></i>
                     </Link>
+
                   </section>
                 </div>
               </div>
@@ -60,7 +58,7 @@ const Jobs = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-5 justify-content-center align-items-center">
-              <img src="https://bajratechnologies.com/web/image/38143/Rectangle%208.png" alt="" className="img-fluid " />
+              <img src={Beliefs} alt="" className="img-fluid " />
             </div>
             <div className="col-md-6 justify-content-center align-items-center">
               <p className="fs-1 lh-sm">Our Beliefs</p>
@@ -102,14 +100,14 @@ const Jobs = () => {
 
             <div className="col-md-6 d-flex flex-column align-items-center">
               <div className="mb-3">
-                <img src="https://bajratechnologies.com/web/image/38143/Rectangle%208.png" alt="" className="img-fluid rounded-2" />
+                <img src={JoinOur1} alt="" className="img-fluid rounded-2" />
               </div>
               <div className="d-flex justify-content-center">
                 <div className="mx-2">
-                  <img src="https://bajratechnologies.com/web/image/38147/1_BmN3ALM7ftjFa6qCSkaKZA%201%20%281%29.png" alt="" className=" rounded-2 img-fluid" />
+                  <img src={JoinOur2} alt="" className=" rounded-2 img-fluid" />
                 </div>
                 <div className="mx-2">
-                  <img src="https://bajratechnologies.com/web/image/38148/Mask%20group%20%281%29.jpg" alt="" className="img-fluid rounded-2" />
+                  <img src={JoinOur3} alt="" className="img-fluid rounded-2" />
                 </div>
               </div>
             </div>
@@ -124,7 +122,7 @@ const Jobs = () => {
           <div className=" mx-auto">
             <div className="row">
               <div className="card bg-light border-0 col-md-6">
-                <img src="https://bajratechnologies.com/web/image/38152/Rectangle%208%20%281%29.png" className="card-img-top img-fluid" alt="Work-life Balance Image" />
+                <img src={Card1} className="card-img-top img-fluid" alt="Work-life Balance Image" />
                 <div className="card-body">
                   <p className="card-text fw-bold fs-5 mb-0">Prioritizing Well-being</p>
                   <p className="card-text fs-6">We prioritize the well-being of our team by fostering a supportive environment that values work-life balance. Through group activities and company-wide initiatives, we ensure our employees thrive both personally and professionally.</p>
@@ -134,7 +132,7 @@ const Jobs = () => {
 
 
               <div className="card bg-light border-0 col-md-6">
-                <img src="https://bajratechnologies.com/web/image/38156/compensation%20and%20benefits%20%281%29.jpg" className="card-img-top img-fluid" alt="..." />
+                <img src={Card2} className="card-img-top img-fluid" alt="..." />
                 <div className="card-body">
                   <p className="card-text fw-bold fs-5 mb-0">Recognizing Employee Value</p>
                   <p className="card-text fs-6">At COL, we recognize the invaluable contributions of our team members with competitive compensation and exceptional benefits. Our commitment to excellence extends beyond work to ensure every employee feels appreciated and empowered.</p>
@@ -145,13 +143,13 @@ const Jobs = () => {
           </div>
         </section >
       </div>
-      {/* Card*/}
+      {/* Cards*/}
       <div className='bg-light'>
         <section className="container  d-flex justify-content-center align-items-center mb-5">
           <div className="w-75 mx-auto">
             <div className="row">
               <div className="card border-0 col-md-6">
-                <img src="https://bajratechnologies.com/web/image/38350/Rectangle%2040.png" className="card-img-top img-fluid" alt="..." />
+                <img src={Cards1} className="card-img-top img-fluid" alt="..." />
                 <div className="card-body">
                   <p className="card-text fw-bold fs-5 mb-0">Searching for career opportunities without experience?</p>
                   <p className='card-text fs-6'>Unlock your potential with our comprehensive traineeship programs designed to build your skills from the ground up.</p>
@@ -161,7 +159,7 @@ const Jobs = () => {
               </div>
 
               <div className="card border-0 col-md-6">
-                <img src="https://bajratechnologies.com/web/image/38351/Rectangle%2040%281%29.png" className="card-img-top img-fluid" alt="..." />
+                <img src={Cards2} className="card-img-top img-fluid" alt="..." />
                 <div className="card-body">
                   <p className="card-text fw-bold fs-5 mb-0">Interested in launching your career with no prior experience?</p>
                   <p className='card-text fs-6'>Discover how our traineeship programs can equip you with the skills and knowledge you need to succeed.</p>

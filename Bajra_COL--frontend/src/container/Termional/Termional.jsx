@@ -47,7 +47,7 @@ const testimonials = [
 
      },
      {
-          quote: "I highly recommend COL Technology to anyone looking for custom mobile or web application development. Over the past four years, I have partnered with COL Technology to deliver several sophisticated online applications. With each engagement, the COL Technology team treated my customers like their own.",
+          quote: "I highly recommend COL to anyone looking for custom mobile or web application development. Over the past four years, I have partnered with COL to deliver several sophisticated online applications. With each engagement, the COL team treated my customers like their own.",
           author: "Samantha Rodriguez",
           title: "Chief Technology Officer, Grymatter"
      },

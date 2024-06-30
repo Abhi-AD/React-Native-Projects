@@ -1,36 +1,37 @@
 import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import { tc1, tc2, tc3, tc4, tc5, tc6 } from '../Parnter/images';
 
 const testimonials = [
      {
           name: 'Subash Shakya',
-          image: 'https://bajratechnologies.com/web/image/38625/Subash%20Shakya%20%281%29.jpg',
+          image: tc1,
           text: 'During my entire traineeship program, the work culture, learning process, and...'
      },
      {
           name: 'Unisa Sakha',
-          image: 'https://bajratechnologies.com/web/image/38626/Unisa%20Sakha.jpg',
+          image: tc2,
           text: 'During my entire traineeship program, the work culture, learning process, and...'
      },
      {
           name: 'Human Singh Hitang',
-          image: 'https://bajratechnologies.com/web/image/38627/Human%20Singh%20Hitang.jpg',
+          image: tc3,
           text: 'During my entire traineeship program, the work culture, learning process, and...'
      },
      {
           name: 'Anish Kumar Mahato',
-          image: 'https://bajratechnologies.com/web/image/38621/Anish%20Kumar%20Mahato.jpg',
+          image: tc4,
           text: 'During my entire traineeship program, the work culture, learning process, and...'
      },
      {
           name: 'Binita Chapagain',
-          image: 'https://bajratechnologies.com/web/image/38630?access_token=da31a04b-e95b-48d0-9d36-03ed6c3072c9',
+          image: tc5,
           text: 'During my entire traineeship program, the work culture, learning process, and...'
      },
      {
           name: 'Sachin Maharjan',
-          image: 'https://bajratechnologies.com/web/image/38624/IMG_0117.jpg',
+          image: tc6,
           text: 'During my entire traineeship program, the work culture, learning process, and...'
      }
 ];
@@ -50,7 +51,7 @@ const TestimonialCard = ({ testimonial }) => (
                          <p className="card-text centered-text">
                               <em>{testimonial.text}</em>
                          </p>
-                         <Link to={`/trainee`} className="btn text-light bg-main ">View More</Link>
+                         <Link to={`/trainee`} className="btn btn-primary text-light bg-main ">View More</Link>
                     </div>
                </div>
           </div>

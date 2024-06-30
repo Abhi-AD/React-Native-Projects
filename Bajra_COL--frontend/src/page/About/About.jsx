@@ -1,4 +1,4 @@
-import { Right_First_Circle, Right_Second_Circle, Right_Third_Circle } from "../../container/Parnter/images";
+import { About1, About2, About3, About4, Right_First_Circle, Right_Second_Circle, Right_Third_Circle } from "../../container/Parnter/images";
 
 const About = () => {
   return (
@@ -11,8 +11,8 @@ const About = () => {
                 <h2 className="fw-semibold fs-3">About Us</h2>
                 <h2 className="fw-bold fs-1">Who We Are</h2>
                 <p className="px-5 fs-5 fw-normal text-white">
-                  <span className="fs-5">COL Technology is your tech solution hub. We specialize in crafting innovations.
-                    Whether you seek new technology development, overhaul, or maintenance, COL Technology offers a unique approach. Let us be your partner in solving challenges, maintaining your current tech, or realizing your visions.</span>
+                  <span className="fs-5">COL is your tech solution hub. We specialize in crafting innovations.
+                    Whether you seek new technology development, overhaul, or maintenance, COL offers a unique approach. Let us be your partner in solving challenges, maintaining your current tech, or realizing your visions.</span>
                 </p>
               </div>
             </div>
@@ -51,7 +51,7 @@ const About = () => {
           </div>
           <div className="col-md-5 d-flex justify-content-center align-items-center">
             <p className="fs-6">
-              Established in 2016, COL Technology is a forward-thinking firm specializing in technology solutions, with offices in New York, NY (USA) and Kathmandu, Bagmati (Nepal). We excel in problem-solving and harness the collective brilliance of our team to tackle intricate challenges using state-of-the-art tools and innovations. Our dedication to fostering personal and professional growth among our team members shapes a dynamic work environment that is both enriching and fulfilling, with a proven track record of delivering excellence across all fronts.
+              Established in 2016, COL is a forward-thinking firm specializing in technology solutions, with offices in New York, NY (USA) and Kathmandu, Bagmati (Nepal). We excel in problem-solving and harness the collective brilliance of our team to tackle intricate challenges using state-of-the-art tools and innovations. Our dedication to fostering personal and professional growth among our team members shapes a dynamic work environment that is both enriching and fulfilling, with a proven track record of delivering excellence across all fronts.
             </p>
           </div>
         </div>
@@ -64,7 +64,7 @@ const About = () => {
           <div className="col-md-3">
             <div className="card">
               <img
-                src="https://bajratechnologies.com/web/image/37212/Mask%20group.png"
+                src={About1}
                 alt=""
                 className="img-fluid rounded w-100"
                 style={{ height: '400px' }}
@@ -74,18 +74,7 @@ const About = () => {
           <div className="col-md-3">
             <div className="card">
               <img
-                src="https://bajratechnologies.com/web/image/37213/1_BmN3ALM7ftjFa6qCSkaKZA%201.png"
-                alt=""
-                className="img-fluid rounded w-100"
-                style={{ height: '400px' }}
-
-              />
-            </div>
-          </div>
-          <div className="col-md-3">
-            <div className="card">
-              <img
-                src="https://bajratechnologies.com/web/image/38436/111.jpg"
+                src={About2}
                 alt=""
                 className="img-fluid rounded w-100"
                 style={{ height: '400px' }}
@@ -96,7 +85,18 @@ const About = () => {
           <div className="col-md-3">
             <div className="card">
               <img
-                src="https://bajratechnologies.com/web/image/37215/Mask%20group%20%281%29.png"
+                src={About3}
+                alt=""
+                className="img-fluid rounded w-100"
+                style={{ height: '400px' }}
+
+              />
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card">
+              <img
+                src={About4}
                 alt=""
                 className="img-fluid rounded w-100"
                 style={{ height: '400px' }}

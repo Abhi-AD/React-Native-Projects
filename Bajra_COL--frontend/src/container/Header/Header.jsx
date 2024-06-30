@@ -21,10 +21,10 @@ const Header = () => {
                             />
                             <div className="text-content fs-1">
                                 <h1 className="heading-title fs-1 lh-sm text-light">
-                                    Extensive background in COL Technology&nbsp;
+                                    Extensive background in COL&nbsp;
                                     <span className="last-text">bringing Ideas to fruition.</span>.
                                 </h1>
-                                <p className="fs-4 lh-1 text-light">Creating Solutions from Your Ideas at COL Technology.</p>
+                                <p className="fs-4 lh-1 text-light">Creating Solutions from Your Ideas at COL.</p>
                             </div>
                             <div className="button-content mt-5">
                                 <div className="row mt-2">

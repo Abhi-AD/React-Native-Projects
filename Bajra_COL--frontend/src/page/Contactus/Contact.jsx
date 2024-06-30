@@ -97,7 +97,7 @@ const Contact = () => {
                 <div className="contact-border border-0 rounded-circle d-flex justify-content-center align-items-center" style={{ marginRight: '13px' }}>
                   <i className="bi bi-envelope-fill fs-6 text-light"></i>
                 </div>
-                <p className=''>collaborate@bajratechnologies.com</p>
+                <p className=''>collaborate@col.com</p>
               </div>
 
             </div>

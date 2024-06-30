@@ -1,3 +1,4 @@
+import { Vision_1, Vision_2, Vision_3, Vision_4, Vision_5, bottom_curve, dotted_line_vertical, top_curve, vision } from '../Parnter/images';
 import './OurProcess.css';
 
 const ProcessSection = () => {
@@ -12,7 +13,7 @@ const ProcessSection = () => {
                                              <h5 className="fs-3 fw-normal text-main">Our Methodology</h5>
                                              <h2 className="fs-1 fw-semibold py-2">Our Operational Approach</h2>
                                              <p>
-                                                  We empower COL Technology to actualize your vision through adept use of tools, technology, and platforms tailored to your specifications. Placing our partners at the forefront, we foster collaboration to achieve strategic objectives while addressing administrative needs, resource limitations, and technological requirements. </p>
+                                                  We empower COL to actualize your vision through adept use of tools, technology, and platforms tailored to your specifications. Placing our partners at the forefront, we foster collaboration to achieve strategic objectives while addressing administrative needs, resource limitations, and technological requirements. </p>
                                         </div>
                                    </div>
                               </div>
@@ -32,29 +33,29 @@ const ProcessSection = () => {
                                              <section className="image-content">
                                                   <div className="image-wrapper-top">
                                                        <div className="dots">
-                                                            <img src="https://bajratechnologies.com/bajra_snippets/static/src/img/dotted_line_vertical.png" alt="Dots" />
+                                                            <img src={dotted_line_vertical} alt="Dots" />
                                                        </div>
                                                        <div className="icon">
-                                                            <img src="https://bajratechnologies.com/bajra_snippets/static/src/img/vision.png" alt="Vision Icon" />
+                                                            <img src={vision} alt="Vision Icon" />
                                                        </div>
                                                   </div>
                                                   <section className="top-curve">
-                                                       <img src="https://bajratechnologies.com/bajra_snippets/static/src/img/top-curve.png" alt="Top Curve" />
+                                                       <img src={top_curve} alt="Top Curve" />
                                                   </section>
                                              </section>
                                              <section className="image-content">
                                                   <div className="image-wrapper-bottom">
                                                        <div className="icon">
-                                                            <img src="https://bajratechnologies.com/web/image/34920/Vision%20%285%29.png" alt="Vision Icon" />
+                                                            <img src={Vision_5} alt="Vision Icon" />
                                                        </div>
                                                        <div className="dots">
-                                                            <img src="https://bajratechnologies.com/bajra_snippets/static/src/img/dotted_line_vertical.png" alt="Dots" />
+                                                            <img src={dotted_line_vertical} alt="Dots" />
                                                        </div>
                                                   </div>
                                              </section>
                                         </section>
                                         <section className="bottom-curve process-sections fadeandshow" style={{ animationDelay: '0.6s' }}>
-                                             <img src="https://bajratechnologies.com/bajra_snippets/static/src/img/bottom-curve.png" alt="Bottom Curve" />
+                                             <img src={bottom_curve} alt="Bottom Curve" />
                                         </section>
                                         <section className="text-content-bottom_process process-sections fadeandshow" style={{ animationDelay: '0.9s' }}>
                                              <section className="text-content_process">
@@ -76,29 +77,29 @@ const ProcessSection = () => {
                                              <section className="image-content">
                                                   <div className="image-wrapper-top">
                                                        <div className="dots">
-                                                            <img src="https://bajratechnologies.com/bajra_snippets/static/src/img/dotted_line_vertical.png" alt="Dots" />
+                                                            <img src={dotted_line_vertical} alt="Dots" />
                                                        </div>
                                                        <div className="icon">
-                                                            <img src="https://bajratechnologies.com/web/image/34922/Vision%20%281%29%20%281%29.png" alt="Design Icon" />
+                                                            <img src={Vision_1} alt="Design Icon" />
                                                        </div>
                                                   </div>
                                                   <section className="top-curve">
-                                                       <img src="https://bajratechnologies.com/bajra_snippets/static/src/img/top-curve.png" alt="Top Curve" />
+                                                       <img src={top_curve} alt="Top Curve" />
                                                   </section>
                                              </section>
                                              <section className="image-content">
                                                   <div className="image-wrapper-bottom">
                                                        <div className="icon">
-                                                            <img src="https://bajratechnologies.com/web/image/34923/Vision%20%282%29%20%281%29.png" alt="Design Icon" />
+                                                            <img src={Vision_2} alt="Design Icon" />
                                                        </div>
                                                        <div className="dots">
-                                                            <img src="https://bajratechnologies.com/bajra_snippets/static/src/img/dotted_line_vertical.png" alt="Dots" />
+                                                            <img src={dotted_line_vertical} alt="Dots" />
                                                        </div>
                                                   </div>
                                              </section>
                                         </section>
                                         <section className="bottom-curve process-sections fadeandshow" style={{ animationDelay: '1.8s' }}>
-                                             <img src="https://bajratechnologies.com/bajra_snippets/static/src/img/bottom-curve.png" alt="Bottom Curve" />
+                                             <img src={bottom_curve} alt="Bottom Curve" />
                                         </section>
                                         <section className="text-content-bottom_process process-sections fadeandshow" style={{ animationDelay: '2.1s' }}>
                                              <section className="text-content_process">
@@ -120,23 +121,23 @@ const ProcessSection = () => {
                                              <section className="image-content">
                                                   <div className="image-wrapper-top">
                                                        <div className="dots">
-                                                            <img src="https://bajratechnologies.com/bajra_snippets/static/src/img/dotted_line_vertical.png" alt="Dots" />
+                                                            <img src={dotted_line_vertical} alt="Dots" />
                                                        </div>
                                                        <div className="icon">
-                                                            <img src="https://bajratechnologies.com/web/image/34924/Vision%20%283%29%20%281%29.png" alt="Feedback Icon" />
+                                                            <img src={Vision_3} alt="Feedback Icon" />
                                                        </div>
                                                   </div>
                                                   <section className="top-curve">
-                                                       <img src="https://bajratechnologies.com/bajra_snippets/static/src/img/top-curve.png" alt="Top Curve" />
+                                                       <img src={top_curve} alt="Top Curve" />
                                                   </section>
                                              </section>
                                              <section className="image-content">
                                                   <div className="image-wrapper-bottom">
                                                        <div className="icon">
-                                                            <img src="https://bajratechnologies.com/web/image/34925/Vision%20%284%29%20%281%29.png" alt="Feedback Icon" />
+                                                            <img src={Vision_4} alt="Feedback Icon" />
                                                        </div>
                                                        <div className="dots">
-                                                            <img src="https://bajratechnologies.com/bajra_snippets/static/src/img/dotted_line_vertical.png" alt="Dots" />
+                                                            <img src={dotted_line_vertical} alt="Dots" />
                                                        </div>
                                                   </div>
                                              </section>

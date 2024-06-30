@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import lglogo from '../../assets/bajra_col_lg-logo.png'
-import smlogo from '../../assets/bajra_col--smlogo.png'
+import lglogo from '../../assets/Logo/bajra_col_lg-logo.png'
+import smlogo from '../../assets/Logo/bajra_col--smlogo.png'
 import { useEffect, useState } from 'react';
 function Footer() {
   const [isWideScreen, setIsWideScreen] = useState(window.innerWidth > 768);
@@ -30,20 +30,19 @@ function Footer() {
                   )}
                   <div className="fs-5 fw-bold pt-1 text-light">
                     <p className='fs-1 mb-0 text-light'>COL</p>
-                    <p className='mb-0 text-light'>Technology</p>
                   </div>
                 </section>
               </div>
               <div className="col-md-6 text-center text-md-left mb-2 mb-md-0 d-flex border-start border-end border-light ">
                 <section className="w-50 ">
-                  <p className="text-sm mb-1 text-light">COL Technology, LLC</p>
+                  <p className="text-sm mb-1 text-light">COL, LLC</p>
                   <p className="text-sm mb-1 text-light">99 Wall St.</p>
                   <p className="text-sm mb-1 text-light">Suite 700</p>
                   <p className="text-sm mb-1 text-light">New York, NY 10005</p>
                 </section>
                 <section className="w-50">
-                  <p className="text-sm mb-1 text-light">COL Technology Pvt. Ltd.</p>
-                  <p className="text-sm mb-1 text-light">Charkhal, Dillibazar</p>
+                  <p className="text-sm mb-1 text-light">COL Pvt. Ltd.</p>
+                  <p className="text-sm mb-1 text-light">Lazimpat</p>
                   <p className="text-sm mb-1 text-light">Kathmandu, Nepal</p>
                 </section>
               </div>
@@ -71,8 +70,8 @@ function Footer() {
               </div>
             </section>
             <section className="anim_footer bottom_footer pt-3 fadeInUp row justify-content-between">
-              <div className="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                <div className="copyright-section">© 2024 COL Technology LLC</div>
+              <div className="col-md-6 text-center text-md-left mb-3 mb-md-0" style={{ marginLeft: '-10rem' }}>
+                <div className="copyright-section">© 2024 COL LLC</div>
               </div>
               <div className="col-md-6 text-center text-md-right">
                 <div className="social-section fs- d-flex justify-content-end">

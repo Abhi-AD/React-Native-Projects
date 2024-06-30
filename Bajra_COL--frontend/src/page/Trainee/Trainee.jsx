@@ -1,5 +1,5 @@
 import { FrequentlyQuestion, ProgramTrainner, TraineeBefint, TraineeCount, TraineeProgram, TraineeTestimonials } from "../../container/import"
-import { Right_First_Circle, Right_Second_Circle, Right_Third_Circle } from "../../container/Parnter/images";
+import { Right_First_Circle, Right_Second_Circle, Right_Third_Circle, Traineeship } from "../../container/Parnter/images";
 
 const Trainee = () => {
   return (
@@ -28,7 +28,7 @@ const Trainee = () => {
         <div className="container">
           <div className="row justify-content-center align-items-center">
             <div className="col-md-5 d-flex justify-content-center align-items-center">
-              <img src="https://bajratechnologies.com/web/image/41676/Image%281%29.png" alt="" className="img-fluid" />
+              <img src={Traineeship} alt="" className="img-fluid" />
             </div>
             <div className="col-md-6">
               <p className="fs-3 text-accent">Unveil COL Traineeship</p>

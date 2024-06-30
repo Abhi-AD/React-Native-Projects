@@ -1,3 +1,4 @@
+import { agile_architecture, consulting, continuousdelivery, hardware, projectmanagement, softwaremonitoring, support_maintenance, technical_architecture, user_experience } from "../Parnter/images"
 
 const Course = () => {
      return (
@@ -10,7 +11,7 @@ const Course = () => {
                                    <p className="fs-6 lh-lg">Our primary goal in delivering solutions is to establish a robust foundational framework. Initially, we thoroughly understand our clients&apos; overarching vision for their projects. Through active collaboration, we then design the platform on which the software will be built. This involves defining the system&apos;s components, their interactions, and selecting the appropriate technology stack, taking into account scalability, security, and performance considerations. Our approach emphasizes strategic planning, decision-making, and the blueprinting of technology solutions that align with business objectives and user needs, while also remaining adaptable to integrate emerging technologies.</p>
                               </div>
                               <div className="col-md-5 justify-content-center align-items-center">
-                                   <img src="https://bajratechnologies.com/bajra_snippets/static/src/img/technical_architecture.png" alt="" className="fadeRight img-fluid " />
+                                   <img src={technical_architecture} alt="" className="fadeRight img-fluid " />
                               </div>
                          </div>
                     </div>
@@ -21,7 +22,7 @@ const Course = () => {
                     <div className="container">
                          <div className="row justify-content-center">
                               <div className="col-md-5 justify-content-center align-items-center">
-                                   <img src="https://bajratechnologies.com/bajra_snippets/static/src/img/user_experience.png" alt="" className="fadeLeft img-fluid" />
+                                   <img src={user_experience} alt="" className="fadeLeft img-fluid" />
                               </div>
                               <div className="col-md-6 justify-content-center align-items-center">
                                    <p className="fs-1 lh-sm">User Experience and Interaction Principles</p>
@@ -38,7 +39,7 @@ const Course = () => {
                               <p className="fs-6 lh-lg">At COL, all our projects embrace agile prototyping and development, utilizing scrum as a dynamic and collaborative methodology. Each scrum iteration is a cyclic process where tasks are executed in stages, leveraging insights from each cycle to drive continuous improvement. Work is organized into sprints, typically lasting two weeks, during which teams refine and enhance the product based on feedback from previous sprints. Our agile teams are composed of cross-functional members with diverse expertise (developers, designers, testers, etc.). Agile prototyping fosters collaboration, frequent communication, and regular software reviews and adaptations through ceremonies such as daily standup meetings and bi-weekly sprint reviews. This iterative approach minimizes the risk of extensive investment in a product that may not meet market demands, allowing for early adjustments based on real-world insights.</p>
                          </div>
                          <div className="col-md-5 justify-content-center align-items-center">
-                              <img src="https://bajratechnologies.com/web/image/34939/Frame%20295.png" alt="" className="fadeRight img-fluid" />
+                              <img src={agile_architecture} alt="" className="fadeRight img-fluid" />
                          </div>
                     </div>
 
@@ -48,7 +49,7 @@ const Course = () => {
                     <div className="container">
                          <div className="row justify-content-center">
                               <div className="col-md-5 justify-content-center align-items-center">
-                                   <img src="https://bajratechnologies.com/web/image/34940/Frame%20295%20%282%29.png" alt="" className="fadeLeft img-fluid" />
+                                   <img src={projectmanagement} alt="" className="fadeLeft img-fluid" />
                               </div>
                               <div className="col-md-6 justify-content-center align-items-center">
                                    <p className="fs-1 lh-sm">Project Management Support and Services</p>
@@ -65,7 +66,7 @@ const Course = () => {
                               <p className="fs-6 lh-lg">COl boasts a diverse team of experts across various fields essential for developing software solutions, including programming, front-end and back-end development, quality assurance, and project management. We offer comprehensive consulting and advisory services tailored to support projects aligned with our areas of expertise. Our services are available to clients at any stage of their development journey, providing strategic guidance to address diverse technology challenges and opportunities. We excel in managing organizational change during technology implementations and transformations, offering assessments of existing IT infrastructure, technology investment recommendations, and roadmaps for seamless technology adoption.</p>
                          </div>
                          <div className="col-md-5 justify-content-center align-items-center">
-                              <img src="https://bajratechnologies.com/web/image/34941/Frame%20295%20%283%29.png" alt="" className="fadeRight img-fluid" />
+                              <img src={consulting} alt="" className="fadeRight img-fluid" />
                          </div>
                     </div>
 
@@ -75,7 +76,7 @@ const Course = () => {
                     <div className="container">
                          <div className="row justify-content-center">
                               <div className="col-md-5 justify-content-center align-items-center">
-                                   <img src="https://bajratechnologies.com/web/image/34940/Frame%20295%20%282%29.png" alt="" className="fadeLeft img-fluid" />
+                                   <img src={support_maintenance} alt="" className="fadeLeft img-fluid" />
                               </div>
                               <div className="col-md-6 justify-content-center align-items-center">
                                    <p className="fs-1 lh-sm">Support and Maintenance Services</p>
@@ -92,7 +93,7 @@ const Course = () => {
                               <p className="fs-6 lh-lg">Continuous Delivery is an important development practice where we focus on automating the software delivery pipeline to ensure that code changes can be reliably and efficiently delivered to production or staging environments at any time. This includes building, testing, and deploying code changes. The goal is to minimize manual intervention and reduce the risk of human errors. We ensure automated testing with unit testing, integration testing, and end-to-end testing to ensure that code changes are of high quality and do not introduce regressions. This also allows our clients to see progress in real-time, or as close as possible to it, mitigating the risk of diverging expectations and catching issues as early as possible.</p>
                          </div>
                          <div className="col-md-5 justify-content-center align-items-center">
-                              <img src="https://bajratechnologies.com/web/image/38401/software%20%282%29.png" alt="" className="fadeRight img-fluid" />
+                              <img src={continuousdelivery} alt="" className="fadeRight img-fluid" />
                          </div>
                     </div>
 
@@ -102,7 +103,7 @@ const Course = () => {
                     <div className="container">
                          <div className="row justify-content-center">
                               <div className="col-md-5 justify-content-center align-items-center">
-                                   <img src="https://bajratechnologies.com/web/image/34946/Software%20Monitoring%20and%20%20Analytics.png" alt="" className="fadeLeft img-fluid" />
+                                   <img src={softwaremonitoring} alt="" className="fadeLeft img-fluid" />
                               </div>
                               <div className="col-md-6 justify-content-center align-items-center">
                                    <p className="fs-1 lh-sm">Software Monitoring and Analytics</p>
@@ -119,7 +120,7 @@ const Course = () => {
                               <p className="fs-1 lh-sm">Custom Hardware and Software Solutions</p>
                               <p className="fs-6 lh-lg">At COL, we excel in crafting customized hardware and software solutions that cater specifically to the unique requirements of our clients. Our dedication to delivering bespoke technology solutions sets us apart in the industry. With a thorough understanding of our clients&apos; needs, we meticulously design and develop tailored hardware and software solutions that seamlessly align with their business objectives. Whether it involves creating specialized software applications, developing custom hardware components, or integrating both seamlessly, COL utilizes state-of-the-art technologies to ensure our clients receive precisely tailored solutions. Our approach emphasizes collaboration, flexibility, and innovation, making us the preferred partner for businesses seeking customized technology solutions that enhance growth and operational efficiency.</p> </div>
                          <div className="col-md-5 justify-content-center align-items-center">
-                              <img src="https://bajratechnologies.com/web/image/38402/hardware.png" alt="" className="fadeRight img-fluid" />
+                              <img src={hardware} alt="" className="fadeRight img-fluid" />
                          </div>
                     </div>
 

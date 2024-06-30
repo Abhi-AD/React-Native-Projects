@@ -1,34 +1,35 @@
+import { Icon1, Icon2, Icon3, Icon4, Icon5, Icon6 } from "../Parnter/images";
 
 const benefits = [
      {
           Title: "Earning While Learning",
           text: "At our program, we recognize the value of our trainees' efforts and offer competitive pay to support you as you grow and learn.",
-          imgSrc: "https://bajratechnologies.com/web/image/41681/Icon.png",
+          imgSrc: Icon1
      },
      {
           Title: "Meals and Refreshments Provided",
           text: "Benefit from complimentary meals and refreshments to keep your energy levels high throughout the program.",
-          imgSrc: "https://bajratechnologies.com/web/image/41682/Icon%281%29.png",
+          imgSrc: Icon2
      },
      {
           Title: "Guidance from Industry Experts",
           text: "Receive tailored mentorship from seasoned professionals, helping you achieve your career goals.",
-          imgSrc: "https://bajratechnologies.com/web/image/41684/Icon%282%29.png",
+          imgSrc: Icon3
      },
      {
           Title: "Career Development",
           text: "Enhance your career potential and fast-track your growth in the tech sector through our traineeship program.",
-          imgSrc: "https://bajratechnologies.com/web/image/41685/Icon%283%29.png",
+          imgSrc: Icon4
      },
      {
           title: "Connections",
           text: "Connect with industry professionals, fellow trainees, and alumni through networking.",
-          imgSrc: "https://bajratechnologies.com/web/image/41686/Icon%284%29.png",
+          imgSrc: Icon5
      },
      {
           Title: "Job Placement Services",
           text: "Easily move into tech roles with our job placement services. We are committed to ensuring your career success.",
-          imgSrc: "https://bajratechnologies.com/web/image/41687/Icon%285%29.png",
+          imgSrc: Icon6
      },
 ];
 

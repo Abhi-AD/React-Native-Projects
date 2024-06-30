@@ -12,6 +12,11 @@
     transition: transform 0.5s ease;
 }
 
+.flipcard {
+    height: 200px;
+    width: 100%;
+}
+
 .card-hover {
     position: relative;
     perspective: 1000px;
@@ -25,5 +30,4 @@
 .card-hover:hover .hover-content {
     display: flex;
     transform: rotateY(0deg);
-    /* transition: transform 0.5s ease 0.5s;  */
 }

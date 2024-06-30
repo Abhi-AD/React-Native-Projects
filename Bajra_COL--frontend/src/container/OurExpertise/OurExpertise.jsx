@@ -1,15 +1,16 @@
 import { useState } from "react";
+import { Cloud, Devops, Mobile_Application, PM, Software, UX, Web_Application } from "../Parnter/images";
 const OurExpertise = () => {
      const [activeTab, setActiveTab] = useState('Web Application');
 
      const tabs = [
-          { name: 'Web Application', img: 'https://bajratechnologies.com/web/image/38332/Mobile%20Application%20%281%29.png' },
-          { name: 'Mobile Application', img: 'https://bajratechnologies.com/web/image/38333/Mobile%20Application.png' },
-          { name: 'Cloud Services', img: 'https://bajratechnologies.com/web/image/38325/Cloud%20%281%29.png' },
-          { name: 'Software Application', img: 'https://bajratechnologies.com/web/image/38334/Software%20%281%29.png' },
-          { name: 'DevOps', img: 'https://bajratechnologies.com/web/image/38336/Devops%20%282%29.png' },
-          { name: 'UI/UX', img: 'https://bajratechnologies.com/web/image/38329/UX.png' },
-          { name: 'PMT', img: 'https://bajratechnologies.com/web/image/38335/PM.png' },
+          { name: 'Web Application', img: Web_Application },
+          { name: 'Mobile Application', img: Mobile_Application },
+          { name: 'Cloud Services', img: Cloud },
+          { name: 'Software Application', img: Software },
+          { name: 'DevOps', img: Devops },
+          { name: 'UI/UX', img: UX },
+          { name: 'PMT', img: PM },
      ];
 
      return (
@@ -20,7 +21,7 @@ const OurExpertise = () => {
                     {tabs.map((tab) => (
                          <button
                               key={tab.name}
-                              className={`nav-link fs-5 fw-normal me-2 ${activeTab === tab.name ? 'active rounded-4 text-light bg-primary ' : 'text-dark border border-dark rounded-4'}`} // Adjusted className for inactive tabs
+                              className={`nav-link fs-5 fw-normal mt-2 me-2 ${activeTab === tab.name ? 'active rounded-4 text-light bg-primary ' : 'text-dark border border-dark rounded-4'}`} // Adjusted className for inactive tabs
                               onClick={() => setActiveTab(tab.name)}
                          >
                               {tab.name}
