@@ -6,7 +6,7 @@ const Image = () => {
           <div className="container">
                <div className="row text-center my-5 justify-content-center align-items-center">
                     <div className="col-lg-8 d-flex justify-content-center align-items-center">
-                         <img src={Images} alt="" className="img-fluid zoom-out" />
+                         <img src={Images} alt="" className="img-fluid zoom-out images" />
                     </div>
                </div>
           </div>

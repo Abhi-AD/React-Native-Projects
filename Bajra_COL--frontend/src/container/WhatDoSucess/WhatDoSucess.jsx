@@ -48,7 +48,7 @@ const WhatDoSucess = () => {
                     </div>
                     <div className="text-center mb-5 mt-5">
                          <Link type="button" className="text-light btn btn-primary fs-4 bg-main " to={`/what-we-do`}>
-                              What We Do <i className="bi bi-arrow-right" data-aos="fade-left"></i>
+                              What We Do<i className="bi bi-arrow-right" data-aos="fade-left"></i>
                          </Link>
                     </div>
                </div>

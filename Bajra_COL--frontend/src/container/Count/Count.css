@@ -18,3 +18,8 @@
 .zoom-out {
      animation: zoom-out 3s ease-out;
 }
+
+.images {
+     width: 900px;
+     height: 500px;
+}

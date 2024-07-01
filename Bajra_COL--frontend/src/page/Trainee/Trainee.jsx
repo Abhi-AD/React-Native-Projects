@@ -28,9 +28,9 @@ const Trainee = () => {
         <div className="container">
           <div className="row justify-content-center align-items-center">
             <div className="col-md-5 d-flex justify-content-center align-items-center">
-              <img src={Traineeship} alt="" className="img-fluid" />
+              <img src={Traineeship} alt="" className="img-fluid card" style={{ width: "500px" }} />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 h-100">
               <p className="fs-3 text-accent">Unveil COL Traineeship</p>
               <p className="fs-1 lh-sm">Introduction</p>
               <p className="fs-6 lh-lg">The COL batch traineeship program is meticulously designed to bridge the gap between academic knowledge and industry demands. It provides extensive hands-on experience in a range of tech roles including software engineering, data analysis, UI/UX design, and project coordination. Additionally, the program places a strong emphasis on vital soft skills such as effective communication, teamwork, presentation, and strategic problem-solving. Embark on this transformative journey with us to thrive in the fast-paced tech landscape.</p>

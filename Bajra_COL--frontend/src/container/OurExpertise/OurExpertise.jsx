@@ -37,7 +37,7 @@ const OurExpertise = () => {
                               id={tab.name}
                               role="tabpanel"
                          >
-                              <img src={tab.img} alt={tab.name} className="img-fluid text-center w-75 mt-5 h-70" />
+                              <img src={tab.img} alt={tab.name} className="img-fluid text-center mt-5" style={{ height: '500px' }} />
                          </div>
                     ))}
                </div>

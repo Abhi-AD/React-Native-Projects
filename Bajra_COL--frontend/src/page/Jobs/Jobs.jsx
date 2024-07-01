@@ -54,37 +54,41 @@ const Jobs = () => {
 
       {/* Our Values */}
 
-      <section className=" d-flex justify-content-center align-items-center py-5">
+      <section className="d-flex justify-content-center align-items-center py-5">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-5 justify-content-center align-items-center">
-              <img src={Beliefs} alt="" className="img-fluid " />
+            <div className="col-md-5 d-flex justify-content-center align-items-center h-100">
+              <img src={Beliefs} alt="" className="img-fluid card" style={{ height: '450px' }} />
             </div>
-            <div className="col-md-6 justify-content-center align-items-center">
-              <p className="fs-1 lh-sm">Our Beliefs</p>
-              <p className="fs-6 lh-lg">Working at COL goes beyond mere employment; it&apos;s an ongoing quest to refine your skills, understanding that excellence is a journey commencing right from the outset. Our primary objective is to excel in our respective domains, committing to excellence in every task, no matter its scale. We prioritize professional growth as the bedrock of our team and the cornerstone of our company&apos;s success, achieved through comprehensive training, exposure, and targeted coaching.</p>
-              <div className="card shadow border-0">
-                <div className="row h-100 mt-4">
-                  {counts.map((stat, index) => (
-                    <div
-                      key={index}
-                      className="col-sm-6 col-md-6 col-lg-3 mb-4 d-flex align-items-center justify-content-center"
-                    >
-                      <div className="text-center fw-bold">
-                        <p className="counting mb-0 fs-4 fw-bold text-main">
-                          {stat.currentCount > stat.threshold ? `${stat.currentCount}+` : stat.currentCount}
-                        </p>
-                        <p className="text-uppercase mt-3 fs-6 text-dark">{stat.label}</p>
+            <div className="col-md-6 d-flex justify-content-center align-items-center h-100">
+              <div>
+                <p className="fs-1 lh-sm">Our Beliefs</p>
+                <p className="fs-6 lh-lg">
+                  Working at COL goes beyond mere employment; it&apos;s an ongoing quest to refine your skills, understanding that excellence is a journey commencing right from the outset. Our primary objective is to excel in our respective domains, committing to excellence in every task, no matter its scale. We prioritize professional growth as the bedrock of our team and the cornerstone of our company&apos;s success, achieved through comprehensive training, exposure, and targeted coaching.
+                </p>
+                <div className="card shadow border-0">
+                  <div className="row h-100 mt-4">
+                    {counts.map((stat, index) => (
+                      <div
+                        key={index}
+                        className="col-sm-6 col-md-6 col-lg-3 mb-4 d-flex align-items-center justify-content-center"
+                      >
+                        <div className="text-center fw-bold">
+                          <p className="counting mb-0 fs-4 fw-bold text-main">
+                            {stat.currentCount > stat.threshold ? `${stat.currentCount}+` : stat.currentCount}
+                          </p>
+                          <p className="text-uppercase mt-3 fs-6 text-dark">{stat.label}</p>
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    ))}
+                  </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
-      </section >
+      </section>
+
 
       {/* Join Our Team */}
       <section className=" d-flex justify-content-center align-items-center py-5">
@@ -100,16 +104,17 @@ const Jobs = () => {
 
             <div className="col-md-6 d-flex flex-column align-items-center">
               <div className="mb-3">
-                <img src={JoinOur1} alt="" className="img-fluid rounded-2" />
+                <img src={JoinOur1} alt="" className="img-fluid rounded-2" style={{ width: '420px', height: '300px' }} />
               </div>
               <div className="d-flex justify-content-center">
                 <div className="mx-2">
-                  <img src={JoinOur2} alt="" className=" rounded-2 img-fluid" />
+                  <img src={JoinOur2} alt="" className="rounded-2 img-fluid" style={{ width: '200px', height: '200px' }} />
                 </div>
                 <div className="mx-2">
-                  <img src={JoinOur3} alt="" className="img-fluid rounded-2" />
+                  <img src={JoinOur3} alt="" className="img-fluid rounded-2" style={{ width: '200px', height: '200px' }} />
                 </div>
               </div>
+
             </div>
 
 
@@ -122,7 +127,7 @@ const Jobs = () => {
           <div className=" mx-auto">
             <div className="row">
               <div className="card bg-light border-0 col-md-6">
-                <img src={Card1} className="card-img-top img-fluid" alt="Work-life Balance Image" />
+                <img src={Card1} className="card-img-top img-fluid" alt="Work-life Balance Image" style={{ height: '400px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <p className="card-text fw-bold fs-5 mb-0">Prioritizing Well-being</p>
                   <p className="card-text fs-6">We prioritize the well-being of our team by fostering a supportive environment that values work-life balance. Through group activities and company-wide initiatives, we ensure our employees thrive both personally and professionally.</p>
@@ -132,7 +137,7 @@ const Jobs = () => {
 
 
               <div className="card bg-light border-0 col-md-6">
-                <img src={Card2} className="card-img-top img-fluid" alt="..." />
+                <img src={Card2} className="card-img-top img-fluid" alt="..." style={{ height: '400px', objectFit: 'cover' }} />
                 <div className="card-body">
                   <p className="card-text fw-bold fs-5 mb-0">Recognizing Employee Value</p>
                   <p className="card-text fs-6">At COL, we recognize the invaluable contributions of our team members with competitive compensation and exceptional benefits. Our commitment to excellence extends beyond work to ensure every employee feels appreciated and empowered.</p>
@@ -144,33 +149,41 @@ const Jobs = () => {
         </section >
       </div>
       {/* Cards*/}
-      <div className='bg-light'>
-        <section className="container  d-flex justify-content-center align-items-center mb-5">
+      <div className="bg-light">
+        <section className="container d-flex justify-content-center align-items-center mb-5">
           <div className="w-75 mx-auto">
             <div className="row">
               <div className="card border-0 col-md-6">
-                <img src={Cards1} className="card-img-top img-fluid" alt="..." />
+                <img
+                  src={Cards1}
+                  className="card-img-top img-fluid"
+                  alt="..."
+                  style={{ height: '300px', objectFit: 'cover' }}
+                />
                 <div className="card-body">
                   <p className="card-text fw-bold fs-5 mb-0">Searching for career opportunities without experience?</p>
-                  <p className='card-text fs-6'>Unlock your potential with our comprehensive traineeship programs designed to build your skills from the ground up.</p>
-                  <Link to={'/jobs'} className="btn text-main fw-bold">Learn More <i className="bi bi-arrow-right"></i></Link>
+                  <p className="card-text fs-6">Unlock your potential with our comprehensive traineeship programs designed to build your skills from the ground up.</p>
+                  <Link to="/jobs" className="btn text-main fw-bold">Learn More <i className="bi bi-arrow-right"></i></Link>
                 </div>
-
               </div>
-
               <div className="card border-0 col-md-6">
-                <img src={Cards2} className="card-img-top img-fluid" alt="..." />
+                <img
+                  src={Cards2}
+                  className="card-img-top img-fluid"
+                  alt="..."
+                  style={{ height: '300px', objectFit: 'cover' }}
+                />
                 <div className="card-body">
                   <p className="card-text fw-bold fs-5 mb-0">Interested in launching your career with no prior experience?</p>
-                  <p className='card-text fs-6'>Discover how our traineeship programs can equip you with the skills and knowledge you need to succeed.</p>
-                  <Link to={'/jobs'} className="btn text-main fw-bold">Explore Opportunities <i className="bi bi-arrow-right"></i></Link>
+                  <p className="card-text fs-6">Discover how our traineeship programs can equip you with the skills and knowledge you need to succeed.</p>
+                  <Link to="/jobs" className="btn text-main fw-bold">Explore Opportunities <i className="bi bi-arrow-right"></i></Link>
                 </div>
-
               </div>
             </div>
           </div>
-        </section >
+        </section>
       </div>
+
     </div >
   )
 }

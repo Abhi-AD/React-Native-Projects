@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Header.css';
-import { Hero_Big_Circle, Hero_Small_Circle } from "../Parnter/images";
+import { Brackets, Code, Colon, Hero_Big_Circle, Hero_Small_Circle, Question, hero_visual, star } from "../Parnter/images";
 
 const Header = () => {
     return (
@@ -30,14 +30,11 @@ const Header = () => {
                                 <div className="row mt-2">
                                     <div className="col-lg-8">
                                         <section className="d-flex align-items-center border border-light border-2 p-0 rounded text-white mb-3 mb-lg-0 overflow-hidden">
-                                            <Link className="move d-inline-flex align-items-center text-decoration-none text-white py-3 px-4" to={"/contactus"}>
+                                            <Link className="move d-inline-flex align-items-center text-decoration-none text-white py-3 px-4 gap-3" to="/contactus">
                                                 Start the Discussion with Us
-                                                <img
-                                                    className="ms-1 arrow"
-                                                    src="https://bajratechnologies.com/bajra_snippets/static/src/img/icon/arrow.svg"
-                                                    alt="Arrow"
-                                                />
+                                                <i className="bi bi-arrow-right fs-4"></i>
                                             </Link>
+
                                         </section>
                                     </div>
                                     <div className="col-lg-4">
@@ -58,32 +55,32 @@ const Header = () => {
                         <div className="position-relative">
                             <img
                                 className="star img-fluid"
-                                src="https://bajratechnologies.com/bajra_snippets/static/src/img/star.png"
+                                src={star}
                                 alt="Star"
                             />
                             <img
                                 className="code img-fluid"
-                                src="https://bajratechnologies.com/bajra_snippets/static/src/img/Code.png"
+                                src={Code}
                                 alt="Code"
                             />
                             <img
                                 className="hero-visual img-fluid"
-                                src="https://bajratechnologies.com/bajra_snippets/static/src/img/pics/hero-visual.png"
+                                src={hero_visual}
                                 alt="Hero Visual"
                             />
                             <img
                                 className="brackets img-fluid"
-                                src="https://bajratechnologies.com/bajra_snippets/static/src/img/Brackets.png"
+                                src={Brackets}
                                 alt="Brackets"
                             />
                             <img
                                 className="colon img-fluid"
-                                src="https://bajratechnologies.com/bajra_snippets/static/src/img/Colon.png"
+                                src={Colon}
                                 alt="Colon"
                             />
                             <img
                                 className="question img-fluid"
-                                src="https://bajratechnologies.com/bajra_snippets/static/src/img/Question.png"
+                                src={Question}
                                 alt="Question"
                             />
                         </div>

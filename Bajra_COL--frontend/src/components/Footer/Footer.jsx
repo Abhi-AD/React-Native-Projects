@@ -24,12 +24,12 @@ function Footer() {
               <div className="col-md-3 text-center text-md-left mb-3 mb-md-0 pb-3">
                 <section className="logo_wrapper">
                   {isWideScreen ? (
-                    <img src={lglogo} alt="Logo" width="120" height="100" className="d-inline-block align-text-top" />
+                    <img src={lglogo} alt="Logo" width="120" height="80" className="d-inline-block align-text-top" />
                   ) : (
                     <img src={smlogo} alt="Logo" width="85" height="80" className="d-inline-block align-text-top " />
                   )}
                   <div className="fs-5 fw-bold pt-1 text-light">
-                    <p className='fs-1 mb-0 text-light'>COL</p>
+                    <p className='fs-6 mb-0 text-light'>Pvt. Ltd</p>
                   </div>
                 </section>
               </div>

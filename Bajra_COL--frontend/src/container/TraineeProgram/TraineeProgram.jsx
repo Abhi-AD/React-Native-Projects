@@ -29,7 +29,7 @@ const TraineeProgram = () => {
                     {batches.map((batch, index) => (
                          <div key={index} className="col-md-4 mb-4">
                               <div className="card">
-                                   <img src={batch.img} className="card-img-top" alt={batch.title} />
+                                   <img src={batch.img} className="card-img-top" alt={batch.title} style={{ height: '300px' }} />
                                    <div className="card-body">
                                         <h5 className="card-title">{batch.title}</h5>
                                         <p className="card-text">{batch.date}</p>

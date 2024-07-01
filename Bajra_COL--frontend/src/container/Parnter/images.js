@@ -86,4 +86,11 @@ import Program2 from '../../assets/Trainee/TraineeshipProgram/Program2.jpg'
 import Program3 from '../../assets/Trainee/TraineeshipProgram/Program3.jpg'
 import Traineeship from '../../assets/Trainee/traineeship.png'
 
-export { Program1, Program2, Program3, Traineeship, Beliefs, JoinOur1, JoinOur2, JoinOur3, Card1, Card2, Cards1, Cards2, Icon1, Icon2, Icon3, Icon4, Icon5, Icon6, tc1, tc2, tc3, tc4, tc5, tc6, agile_architecture, consulting, continuousdelivery, hardware, projectmanagement, softwaremonitoring, support_maintenance, technical_architecture, user_experience, About1, About2, About3, About4, Cloud, Devops, Mobile_Application, PM, Software, UX, Web_Application, Images, bottom_curve, dotted_line_vertical, top_curve, vision, Vision_1, Vision_2, Vision_3, Vision_4, Vision_5, agile, architecture, consultation, continuous_delivery, hardware_software, project_management, software_monitoring, support_maintainance, user_experience_design, Brand_guarde, DriverReach, Foster_keeper, Harverst, Museminded, Republic_services, Smarter, Tempo_communications, Hero_Big_Circle, Hero_Small_Circle, Right_First_Circle, Right_Second_Circle, Right_Third_Circle }
+import Brackets from '../../assets/Home/Brackets.png'
+import Code from '../../assets/Home/Code.png'
+import Colon from '../../assets/Home/Colon.png'
+import hero_visual from '../../assets/Home/hero-visual.png'
+import Question from '../../assets/Home/Question.png'
+import star from '../../assets/Home/star.png'
+
+export { Brackets, Code, Colon, hero_visual, Question, star, Program1, Program2, Program3, Traineeship, Beliefs, JoinOur1, JoinOur2, JoinOur3, Card1, Card2, Cards1, Cards2, Icon1, Icon2, Icon3, Icon4, Icon5, Icon6, tc1, tc2, tc3, tc4, tc5, tc6, agile_architecture, consulting, continuousdelivery, hardware, projectmanagement, softwaremonitoring, support_maintenance, technical_architecture, user_experience, About1, About2, About3, About4, Cloud, Devops, Mobile_Application, PM, Software, UX, Web_Application, Images, bottom_curve, dotted_line_vertical, top_curve, vision, Vision_1, Vision_2, Vision_3, Vision_4, Vision_5, agile, architecture, consultation, continuous_delivery, hardware_software, project_management, software_monitoring, support_maintainance, user_experience_design, Brand_guarde, DriverReach, Foster_keeper, Harverst, Museminded, Republic_services, Smarter, Tempo_communications, Hero_Big_Circle, Hero_Small_Circle, Right_First_Circle, Right_Second_Circle, Right_Third_Circle }

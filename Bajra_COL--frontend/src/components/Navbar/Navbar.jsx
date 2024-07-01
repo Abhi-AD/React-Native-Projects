@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className="container">
         <Link className="navbar-brand" to="/" onClick={handleNavbarBrandClick}>
           {isWideScreen ? (
-            <img src={lglogo} alt="Logo" width="120" height="100" className="d-inline-block align-text-top" />
+            <img src={lglogo} alt="Logo" width="120" height="60" className="d-inline-block align-text-top" />
           ) : (
             <img src={smlogo} alt="Logo" width="85" height="80" className="d-inline-block align-text-top " />
           )}
