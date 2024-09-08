@@ -20,7 +20,7 @@ The **JobPortal** project consists of multiple components:
 
 ## Project Structure
 
-- **[frontend/](./JobPortal/frontend/README.md)**:Contains the React Native code for the mobile application.
+- **[frontend/](./frontend/README.md)**:Contains the React Native code for the mobile application.
 - **`backend/`**: (Include details here if applicable) Contains the server-side code and API.
 
 ## Installation
