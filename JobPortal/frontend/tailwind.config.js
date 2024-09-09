@@ -35,6 +35,7 @@ module.exports = {
           900: "#4E4E4E",
         },
       },
+
       fontFamily: {
         title: ["Neco-Regular", "sans-serif"],
         display: ["Telma-Regular", "sans-serif"],
