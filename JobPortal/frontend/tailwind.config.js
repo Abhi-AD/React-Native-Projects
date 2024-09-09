@@ -9,6 +9,7 @@ module.exports = {
         neutralBlack: "#1b0e01",
         neutralGrey: "#bababa",
         neutralWhite: "#ffffff",
+        brandgreen: "#02C39A",
         brand: {
           50: "#F0F3BD",
           100: "#FFE70A",
@@ -35,6 +36,7 @@ module.exports = {
         },
       },
       fontFamily: {
+        title: ["Neco-Regular", "sans-serif"],
         display: ["Telma-Regular", "sans-serif"],
         smedium: ["Telma-Medium", "sans-serif"],
         sbold: ["Telma-Bold", "sans-serif"],
