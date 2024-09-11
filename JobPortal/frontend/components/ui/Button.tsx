@@ -6,7 +6,7 @@ interface Props extends PressableProps {
   children: ReactNode;
   variant?: Variant;
 }
-const Button = ({ children, variant = "normal" }: Props) => {
+const Button = ({ children, variant = "normal", ...others }: Props) => {
   return (
     <Pressable
       className={clsx("w-full rounded-[8px] px-8 py-4 items-center", {
@@ -14,6 +14,7 @@ const Button = ({ children, variant = "normal" }: Props) => {
         "border rounded-[8px] border-gray-200": variant === "alternate",
       })}
       style={({ pressed }) => [{ opacity: pressed ? 0.5 : 1.0 }]}
+      {...others}
     >
       {children}
     </Pressable>

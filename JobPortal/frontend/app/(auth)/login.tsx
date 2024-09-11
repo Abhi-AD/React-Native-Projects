@@ -14,6 +14,7 @@ import Button from "@/components/ui/Button";
 import GoogleIcon from "@/components/icon/Google";
 import FacebookIcon from "@/components/icon/Facebook";
 import useKeyboardVisible from "@/hooks/useKeyboard";
+import { router } from "expo-router";
 const Login = () => {
   const [remember, setRemember] = useState(false);
   const isKeyboardVisible = useKeyboardVisible();
@@ -27,7 +28,7 @@ const Login = () => {
         className="flex-1"
       >
         <ScrollView className="flex-1">
-          <View className="bg-brandgreen rounded-br-full">
+          <View className="bg-brandgreen rounded-br-3xl">
             <View className="p-8 mx-auto mb-10">
               <Text className="font-title text-[54px] text-center">
                 Job Tree
@@ -52,7 +53,7 @@ const Login = () => {
                 containerStyles="mt-4"
               />
               <View className="mt-4">
-                <Button>
+                <Button onPress={() => router.push("/(tabs)")}>
                   <Text className="font-smedium text-lg text-neutralBlack">
                     Log In
                   </Text>
@@ -90,20 +91,19 @@ const Login = () => {
             </Container>
           </View>
         </ScrollView>
-
-        {!isKeyboardVisible && (
-          <View className="left-0 right-0 flex-row w-full bottom-0 justify-center border-t-[1px] border-gray-200 items-center py-[22px]">
-            <Text className="font-smedium text-md text-gray-800">
-              Don't Have an Account?{" "}
-            </Text>
-            <Link href="/signup">
-              <Text className="font-smedium text-md text-brandgreen">
-                Sign Up
-              </Text>
-            </Link>
-          </View>
-        )}
       </KeyboardAvoidingView>
+      {!isKeyboardVisible && (
+        <View className="left-0 right-0 flex-row w-full bottom-0 justify-center border-t-[1px] border-gray-200 items-center py-[22px]">
+          <Text className="font-smedium text-md text-gray-800">
+            Don't Have an Account?{" "}
+          </Text>
+          <Link href="/signup">
+            <Text className="font-smedium text-md text-brandgreen">
+              Sign Up
+            </Text>
+          </Link>
+        </View>
+      )}
     </SafeAreaView>
   );
 };
