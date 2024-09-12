@@ -1,19 +1,18 @@
-import { TextInput, TextInputProps, View, Text, Pressable } from "react-native";
+import { TextInput, View, Text, Pressable } from "react-native";
 import React from "react";
 import clsx from "clsx";
 import { Eye, EyeClosed } from "iconoir-react-native";
 import { useState } from "react";
-interface Props extends TextInputProps {
-  label: string;
-  containerStyles?: string;
-}
-const Input = ({ placeholder, label, containerStyles }: Props) => {
+import { TextInputProps } from "@/types/input";
+import tw from "twrnc";
+
+const Input = ({ placeholder, label, containerStyles }: TextInputProps) => {
   const [showPassword, setShowPassword] = useState<boolean>(false);
   const handlePress = () => {
     setShowPassword(!showPassword);
   };
   return (
-    <View className={clsx("w-full bg-[#F6F7F9] rounded-lg", containerStyles)}>
+    <View style={tw.style("w-full bg-[#F6F7F9] rounded-lg", containerStyles)}>
       <Text className="font-sbold text-md text-neutral-700 px-4 pt-1 pb-1">
         {label}
       </Text>

@@ -1,6 +1,6 @@
 import { Tabs } from "expo-router";
 import { Image, View } from "react-native";
-import { HomeSimple, QrCode, BadgeCheck } from "iconoir-react-native";
+import { HomeSimple, BadgeCheck } from "iconoir-react-native";
 import NewsIcon from "@/components/icon/NewsIcon";
 import { Ionicons } from "@expo/vector-icons";
 import Images from "@/components/icon/Images";
@@ -9,18 +9,16 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: "#ff8303",
+        tabBarActiveTintColor: "#1b0e01",
+        tabBarActiveBackgroundColor: "#02C39A",
         headerShown: false,
         tabBarStyle: {
-          paddingHorizontal: 8,
-          paddingTop: 12,
-          paddingBottom: 18,
-          height: 76,
+          height: 70,
           backgroundColor: "white",
-          borderTopLeftRadius: 24,
-          borderTopRightRadius: 24,
+          paddingBottom: 8,
         },
         tabBarLabelStyle: {
+          justifyContent: "center",
           fontSize: 13,
           fontWeight: "bold",
           fontFamily: "Telma-Regular",
@@ -37,9 +35,9 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="news"
+        name="journeys"
         options={{
-          title: "News",
+          title: "Journeys",
           tabBarIcon: ({ color, focused }) => (
             <Ionicons
               className="mb-2"
@@ -50,28 +48,11 @@ export default function TabLayout() {
           ),
         }}
       />
+
       <Tabs.Screen
-        name="checkin"
+        name="subscription"
         options={{
-          title: "Check In",
-          tabBarIcon: ({ color, focused }) => (
-            <View
-              style={{
-                backgroundColor: "#ff8303",
-                borderRadius: 12,
-                padding: 8,
-                marginTop: -30,
-              }}
-            >
-              <QrCode width="40px" height="40px" color="white" />
-            </View>
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="experts"
-        options={{
-          title: "Experts",
+          title: "Subscription",
           tabBarIcon: ({ color, focused }) => (
             <BadgeCheck width="24px" height="24px" color={color} />
           ),

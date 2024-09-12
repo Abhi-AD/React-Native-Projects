@@ -15,6 +15,7 @@ import GoogleIcon from "@/components/icon/Google";
 import FacebookIcon from "@/components/icon/Facebook";
 import useKeyboardVisible from "@/hooks/useKeyboard";
 import { router } from "expo-router";
+import HeaderLayout from "@/components/ui/HeaderLayout";
 const Login = () => {
   const [remember, setRemember] = useState(false);
   const isKeyboardVisible = useKeyboardVisible();
@@ -28,19 +29,12 @@ const Login = () => {
         className="flex-1"
       >
         <ScrollView className="flex-1">
-          <View className="bg-brandgreen rounded-br-3xl">
-            <View className="p-8 mx-auto mb-10">
-              <Text className="font-title text-[54px] text-center">
-                Job Tree
-              </Text>
-              <Text className="font-smedium">
-                Job Tree is the destination to find and list incredible remote
-                jobs
-              </Text>
-            </View>
-          </View>
+          <HeaderLayout
+            title="Job Tree"
+            description="Job Tree is the destination to find and list incredible remote jobs"
+          />
 
-          <View className=" mt-[-50px]">
+          <View className=" mt-[-80px]">
             <Container>
               <Input
                 placeholder="john@gmail.com"
