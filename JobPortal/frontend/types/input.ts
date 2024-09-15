@@ -10,3 +10,10 @@ export interface TextInputProps {
   label: string;
   containerStyles?: string;
 }
+
+export interface JobListProps {
+  title: string;
+  company: string;
+  location: string;
+  isNew: boolean;
+}
