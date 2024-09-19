@@ -1,7 +1,6 @@
 import { Tabs } from "expo-router";
 import { Image, View } from "react-native";
 import { HomeSimple, BadgeCheck } from "iconoir-react-native";
-import NewsIcon from "@/components/icon/NewsIcon";
 import { Ionicons } from "@expo/vector-icons";
 import Images from "@/components/icon/Images";
 
@@ -48,7 +47,6 @@ export default function TabLayout() {
           ),
         }}
       />
-
       <Tabs.Screen
         name="subscription"
         options={{
@@ -58,7 +56,6 @@ export default function TabLayout() {
           ),
         }}
       />
-
       <Tabs.Screen
         name="profile"
         options={{

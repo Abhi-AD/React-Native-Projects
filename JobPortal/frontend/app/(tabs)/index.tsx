@@ -6,7 +6,6 @@ import Container from "@/components/ui/Container";
 import SearchBar from "@/components/ui/SearchBar";
 import tw from "twrnc";
 import JobList from "@/components/ui/JobList";
-import { JobListProps } from "@/types/input";
 import { jobData } from "@/data/Jobs";
 
 export default function HomeScreen() {
@@ -14,8 +13,8 @@ export default function HomeScreen() {
   return (
     <SafeAreaView style={tw`flex-1`}>
       <ScrollView>
-        <View style={tw`flex-row px-6 justify-between my-4`}>
-          <View style={tw`flex-row`}>
+        <View style={tw`flex-row px-6 justify-between bg-[#02C39A]`}>
+          <View style={tw`flex-row my-10`}>
             <Text style={tw`font-title text-[25px]`}>Job Tree</Text>
             <PineTree width={30} height={30} color="black" />
           </View>
