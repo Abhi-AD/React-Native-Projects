@@ -4,12 +4,13 @@ import meditationImages from "@/constants/meditation-images";
 import main from "@/constants/main";
 import { StatusBar } from "expo-status-bar";
 import Button from "@/components/ui/Button";
+import { useRouter } from "expo-router";
 
 export default function HomeScreen() {
   const [treeImage, riverImage, meditatingUnderTree, beachImage] =
     meditationImages;
   const [logo] = main;
-
+  const router = useRouter();
   return (
     <View className="flex-1">
       <ImageBackground
@@ -35,7 +36,7 @@ export default function HomeScreen() {
             </View>
             <View>
               <Button
-                onPress={() => console.warn("top")}
+                onPress={() => router.push("/test")}
                 title="Get Started"
                 containerStyles="bg-[#0a4d4a]"
                 textStyles="text-white"
