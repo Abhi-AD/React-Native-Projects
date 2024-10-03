@@ -5,6 +5,7 @@ import main from "@/constants/main";
 import { StatusBar } from "expo-status-bar";
 import Button from "@/components/ui/Button";
 import { useRouter } from "expo-router";
+import AppGradient from "@/components/ui/AppGradient";
 
 export default function HomeScreen() {
   const [treeImage, riverImage, meditatingUnderTree, beachImage] =
@@ -18,14 +19,11 @@ export default function HomeScreen() {
         resizeMode="cover"
         className="flex-1"
       >
-        <LinearGradient
-          colors={["rgba(0,0,0,0.4)", "rgba(0,0,0,0.8)"]}
-          className="flex-1"
-        >
-          <SafeAreaView className="justify-between flex-1 mx-5 my-8 mt-20">
+        <AppGradient colors={["rgba(0,0,0,0.4)", "rgba(0,0,0,0.8)"]}>
+          <SafeAreaView className="justify-between flex-1 px-1">
             <View className="flex-col gap-3">
               <Text className="text-4xl font-bold text-center text-white">
-                Welcome to Meditation App
+                Meditation App
               </Text>
               <Text className="text-xl text-center text-white text-regular">
                 Simplifying Meditation for Everyone
@@ -36,7 +34,7 @@ export default function HomeScreen() {
             </View>
             <View>
               <Button
-                onPress={() => router.push("/test")}
+                onPress={() => router.push("/nature-meditate")}
                 title="Get Started"
                 containerStyles="bg-[#0a4d4a]"
                 textStyles="text-white"
@@ -44,7 +42,7 @@ export default function HomeScreen() {
             </View>
             <StatusBar style="light" />
           </SafeAreaView>
-        </LinearGradient>
+        </AppGradient>
       </ImageBackground>
     </View>
   );
