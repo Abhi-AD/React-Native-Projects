@@ -18,7 +18,7 @@ const TabsLayout = () => {
                          )
                     }}
                />
-               <Tabs.Screen name='affirmation'
+               <Tabs.Screen name='affirmations'
                     options={{
                          tabBarLabel: "Affirmation",
                          tabBarIcon: ({ color }) => (
