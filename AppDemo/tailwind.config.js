@@ -6,7 +6,11 @@ module.exports = {
     "./sections/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        rmono: ['Roboto-Mono', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 };

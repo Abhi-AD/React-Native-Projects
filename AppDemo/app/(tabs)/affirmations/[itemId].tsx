@@ -44,7 +44,7 @@ const AffirmationPractice = () => {
                               onPress={() => router.back()}
                               className="absolute z-10 top-10 left-4"
                          >
-                              <Ionicons name="chevron-back" size={50} color="white" />
+                              <Ionicons name="chevron-back" size={30} color="white" />
                          </Pressable>
                          <ScrollView
                               className="mt-20"
