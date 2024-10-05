@@ -1,5 +1,5 @@
 import { View, Text, ImageBackground, Pressable } from 'react-native'
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import MEDITATION_IMAGES from "@/constants/meditation-images";
 import AppGradient from '@/components/ui/AppGradient';
 import { router, useLocalSearchParams } from 'expo-router';
@@ -7,12 +7,13 @@ import { Ionicons } from '@expo/vector-icons';
 import { Audio } from "expo-av";
 import Button from '@/components/ui/Button';
 import { AUDIO_FILES, MEDITATION_DATA } from '@/constants/MeditationData';
+import { TimerContext } from '@/context/TimerContext';
 
 
 const Meditate = () => {
      const { id } = useLocalSearchParams();
-
-     const [secondsRemaining, setSecondsRemaining] = useState(10);
+     const { duration: secondsRemaining, setDuration } =
+          useContext(TimerContext);
      const [isMeditating, setMeditating] = useState(false);
      const [audioSound, setSound] = useState<Audio.Sound>();
      const [isPlayingAudio, setPlayingAudio] = useState(false);
@@ -25,7 +26,7 @@ const Meditate = () => {
           }
           if (isMeditating) {
                timerId = setTimeout(() => {
-                    setSecondsRemaining(secondsRemaining - 1);
+                    setDuration(secondsRemaining - 1);
                }, 1000);
           }
           return () => {
@@ -62,17 +63,27 @@ const Meditate = () => {
      };
 
      const toggleMeditationSessionStatus = async () => {
-          if (secondsRemaining === 0) setSecondsRemaining(10);
+          if (secondsRemaining === 0) setDuration(10);
           setMeditating(!isMeditating);
           await togglePlayPause();
 
      }
-     // Format the timeLeft to ensure two digits are displayed
-     const formattedTimeMinutes = String(
-          Math.floor(secondsRemaining / 60)
-     ).padStart(2, "0");
-     const formattedTimeSeconds = String(secondsRemaining % 60).padStart(2, "0");
 
+     const handleAdjustDuration = () => {
+          if (isMeditating) toggleMeditationSessionStatus();
+
+          router.push("/(modal)/adjust-meditation-duration");
+     };
+     // Format the timeLeft to ensure two digits are displayed
+     const totalSeconds = secondsRemaining;
+     const formattedTimeHours = String(Math.floor(totalSeconds / 3600)).padStart(2, "0");
+     const formattedTimeMinutes = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, "0");
+     const formattedTimeSeconds = String(totalSeconds % 60).padStart(2, "0");
+
+     // Adjust display logic based on whether there are hours
+     const displayTime = formattedTimeHours !== "00"
+          ? `${formattedTimeHours}:${formattedTimeMinutes}:${formattedTimeSeconds}`
+          : `${formattedTimeMinutes}:${formattedTimeSeconds}`;
      return (
           <View className='flex-1'>
                <ImageBackground
@@ -89,12 +100,16 @@ const Meditate = () => {
                          </Pressable>
                          <View className="justify-center flex-1">
                               <View className="items-center justify-center mx-auto rounded-full bg-neutral-200 w-44 h-44">
-                                   <Text className="text-4xl text-blue-800 font-rmono">{formattedTimeMinutes}.{formattedTimeSeconds}
+                                   <Text className="text-4xl text-blue-800 font-rmono">{displayTime}
                                    </Text>
                               </View>
                          </View>
 
                          <View className="mb-5">
+                              <Button
+                                   title="Adjust duration"
+                                   onPress={handleAdjustDuration}
+                              />
                               <Button
                                    title={isMeditating ? "Stop" : "Start Meditation"}
                                    onPress={toggleMeditationSessionStatus}
