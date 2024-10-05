@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "AppDemo",
+    "name": "Meditation",
     "slug": "AppDemo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/simpleMeditationLogo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
