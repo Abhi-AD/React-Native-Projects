@@ -12,31 +12,41 @@ import { TimerContext } from '@/context/TimerContext';
 
 const Meditate = () => {
      const { id } = useLocalSearchParams();
+
      const { duration: secondsRemaining, setDuration } =
           useContext(TimerContext);
+
      const [isMeditating, setMeditating] = useState(false);
      const [audioSound, setSound] = useState<Audio.Sound>();
      const [isPlayingAudio, setPlayingAudio] = useState(false);
 
      useEffect(() => {
           let timerId: NodeJS.Timeout;
+
+          // Exit early when we reach 0
           if (secondsRemaining === 0) {
+               if (isPlayingAudio) audioSound?.pauseAsync();
                setMeditating(false);
                setPlayingAudio(false);
-               audioSound?.pauseAsync();
                return;
           }
+
           if (isMeditating) {
+               // Save the interval ID to clear it when the component unmounts
                timerId = setTimeout(() => {
                     setDuration(secondsRemaining - 1);
                }, 1000);
           }
+
+          // Clear timeout if the component is unmounted or the time left changes
           return () => {
                clearTimeout(timerId);
           };
-     }, [secondsRemaining, isMeditating])
+     }, [secondsRemaining, isMeditating]);
+
      useEffect(() => {
           return () => {
+               setDuration(10);
                audioSound?.unloadAsync();
           };
      }, [audioSound]);
@@ -50,6 +60,7 @@ const Meditate = () => {
           setSound(sound);
           return sound;
      };
+
      const togglePlayPause = async () => {
           const sound = audioSound ? audioSound : await initializeSound();
 
@@ -64,11 +75,12 @@ const Meditate = () => {
           }
      };
 
-     const toggleMeditationSessionStatus = async () => {
+     async function toggleMeditationSessionStatus() {
           if (secondsRemaining === 0) setDuration(10);
-          setMeditating(!isMeditating);
-          await togglePlayPause();
 
+          setMeditating(!isMeditating);
+
+          await togglePlayPause();
      }
 
      const handleAdjustDuration = () => {
@@ -76,6 +88,7 @@ const Meditate = () => {
 
           router.push("/(modal)/adjust-meditation-duration");
      };
+
      // Format the timeLeft to ensure two digits are displayed
      const totalSeconds = secondsRemaining;
      const formattedTimeHours = String(Math.floor(totalSeconds / 3600)).padStart(2, "0");
