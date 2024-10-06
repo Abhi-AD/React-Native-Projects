@@ -22,6 +22,8 @@ const Meditate = () => {
           let timerId: NodeJS.Timeout;
           if (secondsRemaining === 0) {
                setMeditating(false);
+               setPlayingAudio(false);
+               audioSound?.pauseAsync();
                return;
           }
           if (isMeditating) {
